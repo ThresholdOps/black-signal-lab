@@ -2,7 +2,7 @@
 
 ## Summary
 
-SAMAEL is a public, sanitized case study about AI-assisted task orchestration, project memory, and bounded autonomous execution.
+SAMAEL is a public, sanitized case study about AI-assisted task orchestration, project memory, and bounded agent-assisted execution.
 
 The case study focuses on governance patterns rather than implementation details: how work is described, decomposed, tracked, reviewed, and handed back to a human decision-maker.
 
