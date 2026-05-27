@@ -4,6 +4,8 @@ Black Signal Lab is a public portfolio workspace for governance-oriented AI work
 
 This repository contains sanitized case studies and example artifacts focused on structured execution, explicit boundaries, validation gates, source-of-truth thinking, and human-in-the-loop review. It is not a software-engineering portfolio and does not claim production readiness.
 
+For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
+
 ## Portfolio Map
 
 - [SAMAEL](case-studies/samael/) - AI-assisted task orchestration, project memory, bounded execution, validation gates, and human review.
