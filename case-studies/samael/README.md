@@ -64,6 +64,10 @@ SAMAEL demonstrates AI transformation and workflow governance patterns that are 
 - [Validation gate example](examples/validation-gate.example.md)
 - [Handoff note example](examples/handoff-note.example.md)
 
+## Further Reading
+
+- [SAMAEL governance pattern](governance-pattern.md)
+
 ## Data Boundary
 
 This case study contains only public, synthetic, anonymized, or fully sanitized material.
