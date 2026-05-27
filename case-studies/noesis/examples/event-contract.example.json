@@ -1,0 +1,65 @@
+{
+  "artifact_type": "event_contract",
+  "artifact_version": "0.1",
+  "event_name": "system_status_changed",
+  "description": "Synthetic event contract for a public-safe telemetry signal.",
+  "source_of_truth_boundary": {
+    "authoritative_state": "system_status_registry",
+    "derived_context": [
+      "interpretation_report",
+      "human_readable_summary",
+      "ai_readable_system_context"
+    ],
+    "boundary_note": "Derived context may support review, but it is not the authoritative system record."
+  },
+  "required_fields": [
+    {
+      "name": "event_id",
+      "type": "string",
+      "description": "Synthetic unique identifier for the event."
+    },
+    {
+      "name": "observed_at",
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp for when the synthetic signal was observed."
+    },
+    {
+      "name": "system_area",
+      "type": "string",
+      "allowed_values": [
+        "ingestion",
+        "processing",
+        "reporting"
+      ]
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "allowed_values": [
+        "nominal",
+        "degraded",
+        "attention_required"
+      ]
+    },
+    {
+      "name": "signal_summary",
+      "type": "string",
+      "description": "Public-safe summary of the structured signal."
+    }
+  ],
+  "privacy_boundary": {
+    "personal_data_allowed": false,
+    "confidential_data_allowed": false,
+    "runtime_logs_allowed": false,
+    "server_paths_allowed": false,
+    "internal_urls_allowed": false,
+    "credentials_or_secrets_allowed": false,
+    "production_configuration_allowed": false
+  },
+  "review_requirements": [
+    "Confirm the event uses only synthetic or fully sanitized values.",
+    "Confirm the source-of-truth boundary is visible.",
+    "Route derived interpretation to human review before escalation."
+  ]
+}

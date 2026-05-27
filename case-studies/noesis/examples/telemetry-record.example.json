@@ -1,0 +1,30 @@
+{
+  "artifact_type": "telemetry_record",
+  "artifact_version": "0.1",
+  "event_contract": "system_status_changed",
+  "event_id": "synthetic-event-001",
+  "observed_at": "2026-01-15T10:30:00Z",
+  "system_area": "processing",
+  "status": "degraded",
+  "signal_summary": "Synthetic processing queue latency exceeded the review threshold for the current observation window.",
+  "structured_signals": {
+    "queue_state": "delayed",
+    "review_threshold": "exceeded",
+    "impact_scope": "sample_workflow",
+    "source_confidence": "medium"
+  },
+  "source_of_truth_boundary": {
+    "authoritative_state": "system_status_registry",
+    "record_role": "telemetry_signal",
+    "is_authoritative_state": false
+  },
+  "ai_readable_system_context": {
+    "candidate_interpretation": "Potential workflow delay requiring human review.",
+    "known_limitations": [
+      "Synthetic example only.",
+      "No real runtime logs are included.",
+      "Signal does not prove root cause."
+    ]
+  },
+  "human_review_required": true
+}
