@@ -1,0 +1,36 @@
+{
+  "artifact_type": "validation_result",
+  "artifact_version": "0.1",
+  "validated_artifact": "evidence-map.example.json",
+  "gate_name": "reviewable_output_gate",
+  "result": "revise_before_approval",
+  "checks": [
+    {
+      "check_id": "scope",
+      "description": "Artifact matches the approved source profile and analysis purpose.",
+      "status": "pass"
+    },
+    {
+      "check_id": "public_safety",
+      "description": "Artifact contains no personal data, confidential data, internal URLs, private paths, credentials, tokens, secrets, or production configuration.",
+      "status": "pass"
+    },
+    {
+      "check_id": "evidence_coverage",
+      "description": "Each extracted item includes at least one source reference or is marked for clarification.",
+      "status": "pass"
+    },
+    {
+      "check_id": "review_status",
+      "description": "Artifact clearly states that human review is still required.",
+      "status": "pass"
+    },
+    {
+      "check_id": "decision_readiness",
+      "description": "Artifact is safe to use as an approved decision record.",
+      "status": "fail",
+      "reason": "The artifact is reviewable but not approved. A human reviewer must accept, correct, or reject the extracted items."
+    }
+  ],
+  "required_next_step": "Route to human reviewer before publication, escalation, or downstream action."
+}

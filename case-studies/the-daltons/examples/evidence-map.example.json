@@ -1,0 +1,58 @@
+{
+  "artifact_type": "evidence_map",
+  "artifact_version": "0.1",
+  "source_id": "synthetic-source-001",
+  "review_status": "pending_human_review",
+  "items": [
+    {
+      "item_id": "decision-001",
+      "item_type": "decision",
+      "summary": "The review group agreed to document intake criteria before expanding the workflow.",
+      "evidence": [
+        {
+          "reference_id": "ref-001",
+          "source_section": "synthetic notes, section 2",
+          "evidence_type": "source_backed_summary"
+        }
+      ],
+      "confidence": "medium",
+      "needs_human_review": true
+    },
+    {
+      "item_id": "risk-001",
+      "item_type": "risk",
+      "summary": "Outputs may be misread as approved records if review status is not visible.",
+      "evidence": [
+        {
+          "reference_id": "ref-002",
+          "source_section": "synthetic notes, section 3",
+          "evidence_type": "source_backed_summary"
+        }
+      ],
+      "confidence": "high",
+      "needs_human_review": true
+    },
+    {
+      "item_id": "action-001",
+      "item_type": "follow_up_action",
+      "summary": "Create a validation checklist for evidence coverage and public-safety boundaries.",
+      "owner_role": "workflow reviewer",
+      "evidence": [
+        {
+          "reference_id": "ref-003",
+          "source_section": "synthetic notes, section 4",
+          "evidence_type": "source_backed_summary"
+        }
+      ],
+      "confidence": "medium",
+      "needs_human_review": true
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "question_id": "question-001",
+      "summary": "Should low-confidence interpretations be excluded or routed to a separate clarification queue?",
+      "needs_human_review": true
+    }
+  ]
+}
