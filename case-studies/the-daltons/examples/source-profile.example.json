@@ -1,0 +1,33 @@
+{
+  "artifact_type": "source_profile",
+  "artifact_version": "0.1",
+  "source_id": "synthetic-source-001",
+  "source_type": "synthetic_meeting_notes",
+  "source_title": "Example operating review notes",
+  "source_status": "synthetic_public_safe",
+  "analysis_purpose": "Prepare a structured, reviewable summary of decisions, risks, assumptions, and follow-up actions.",
+  "allowed_uses": [
+    "portfolio demonstration",
+    "workflow design discussion",
+    "validation gate example"
+  ],
+  "excluded_uses": [
+    "publication as factual meeting record",
+    "automated decision-making",
+    "performance evaluation",
+    "production operation"
+  ],
+  "sensitivity_boundary": {
+    "contains_personal_data": false,
+    "contains_confidential_data": false,
+    "contains_real_transcript": false,
+    "contains_internal_url": false,
+    "contains_credentials_or_secrets": false
+  },
+  "review_requirements": [
+    "Confirm source is synthetic or fully sanitized.",
+    "Check that extracted claims are linked to source references.",
+    "Do not treat AI-assisted output as final truth.",
+    "Require human approval before external sharing."
+  ]
+}
