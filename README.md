@@ -1,14 +1,26 @@
 # Black Signal Lab
 
-AI-assisted workflow and governance systems lab.
+Black Signal Lab is a public portfolio workspace for governance-oriented AI workflows, process design, operating model thinking, and AI-readable system context.
 
-This repository contains public, sanitized case studies and working artifacts focused on structured execution, process governance, AI-assisted workflows, validation gates, and human-in-the-loop automation.
+This repository contains sanitized case studies and example artifacts focused on structured execution, explicit boundaries, validation gates, source-of-truth thinking, and human-in-the-loop review. It is not a software-engineering portfolio and does not claim production readiness.
 
-## Purpose
+## Portfolio Map
 
-Black Signal Lab explores how AI can support organizational execution without becoming an uncontrolled black box.
+- [SAMAEL](case-studies/samael/) - AI-assisted task orchestration, project memory, bounded execution, validation gates, and human review.
+- [The Daltons](case-studies/the-daltons/) - structured meeting and document analysis using evidence mapping, JSON artifacts, validation gates, and reviewable outputs.
+- [NOESIS](case-studies/noesis/) - telemetry, interpretation layers, source-of-truth boundaries, human-readable reporting, observability gates, and AI-readable system context.
 
-The focus is not on isolated prompts or generic automation. The focus is on structured workflows: clear inputs, explicit artifacts, validation gates, traceability, and bounded human review.
+## Case Studies
+
+**SAMAEL** demonstrates how agent-assisted work can be governed through task contracts, project memory, bounded execution, validation gates, and human review. The focus is on keeping AI-assisted workflows traceable, scoped, and reviewable before commit, publication, deployment, or external action.
+
+**The Daltons** demonstrates how unstructured meeting or document inputs can be converted into structured artifacts without treating model output as final truth. The case study emphasizes source preparation, evidence mapping, JSON artifacts, validation gates, and human-in-the-loop review for process governance.
+
+**NOESIS** demonstrates how telemetry and structured signals can support interpretation, reporting, and governance for persistent systems. The case study focuses on source-of-truth boundaries, interpretation layers, observability gates, and AI-readable system context without exposing private runtime details.
+
+## Why This Matters
+
+AI transformation is not only a tooling problem. It depends on operating models that make work explicit: what input is trusted, what output is reviewable, what evidence supports a claim, where the source of truth lives, and when a human decision is required. Black Signal Lab presents public-safe patterns for AI-assisted workflows, process governance, IT transformation, operating model improvement, and human-in-the-loop review.
 
 ## Themes
 
@@ -18,31 +30,29 @@ The focus is not on isolated prompts or generic automation. The focus is on stru
 - Meeting and document analysis
 - Artifact-based execution
 - Validation gates
-- Human-in-the-loop automation
-- Business–IT alignment
+- Human-in-the-loop review
+- Source-of-truth boundaries
+- AI-readable system context
+- Business-IT alignment
 - Operating model improvement
 
-## Case studies
+## Privacy and Data Boundary
 
-Planned public case studies:
-
-1. **SAMAEL** — AI-assisted task orchestration and project memory
-2. **The Daltons** — structured meeting analysis pipeline using JSON artifacts and validation gates
-3. **NOESIS** — telemetry and interpretation layer for persistent systems
-
-## Privacy and data boundary
-
-This repository uses only synthetic, anonymized, or fully sanitized materials.
+This repository uses only public, synthetic, anonymized, or fully sanitized materials.
 
 It does not contain:
 
 - personal data
 - company confidential data
 - real meeting transcripts
-- internal project documents
-- private system configurations
+- real project documents
+- real runtime logs
+- internal URLs
+- private paths
 - credentials, tokens, or secrets
+- production configuration
+- copied internal project files
 
 ## Status
 
-Early public portfolio workspace.
+Public portfolio workspace for human review.
