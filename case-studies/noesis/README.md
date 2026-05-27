@@ -68,6 +68,10 @@ NOESIS demonstrates IT transformation, governance, operating-model, and AI-reada
 - [Interpretation report example](examples/interpretation-report.example.md)
 - [Observability gate example](examples/observability-gate.example.md)
 
+## Further Reading
+
+- [NOESIS source-of-truth pattern](source-of-truth-pattern.md)
+
 ## Data Boundary
 
 This case study contains only public, synthetic, anonymized, or fully sanitized material.
