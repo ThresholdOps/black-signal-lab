@@ -8,6 +8,8 @@ For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
 For the shared governance framework connecting the case studies, see the [Black Signal Governance Model](frameworks/black-signal-governance-model.md).
 
+For a public training module on critical thinking in AI-assisted workflows, see [From Evidence to Decision](training/critical-thinking-for-ai-workflows/).
+
 ## Portfolio Map
 
 - [SAMAEL](case-studies/samael/) - AI-assisted task orchestration, project memory, bounded execution, validation gates, and human review.
