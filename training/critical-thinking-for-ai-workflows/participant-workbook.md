@@ -61,6 +61,12 @@ Before using an AI-assisted artifact, check:
 - Does it avoid recommendations unless explicitly requested and reviewed?
 - Does it require human review before becoming a record or action?
 
+## Exercise 4: Worked AI Output Review
+
+Read the [Worked AI Output Review](examples/worked-ai-output-review.md). Use the classification categories, decision-readiness checklist, and AI output review gate to identify which parts of the flawed summary are source-backed, interpreted, assumed, unresolved, risky, unsupported, or incorrectly presented as approved.
+
+Then compare your reasoning with the facilitator answer key if it is being used in a guided session.
+
 ## Validation vs Approval
 
 Validation can show that an artifact is structured, complete enough to inspect, and free from obvious boundary violations.
