@@ -41,6 +41,10 @@ It does not include personal data, company confidential data, real meeting trans
 ## Links
 
 - [Repository README](README.md)
+- [Public Baseline Status](STATUS.md)
 - [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
 - [Critical Thinking for AI-Assisted Workflows](training/critical-thinking-for-ai-workflows/)
 - [Diagrams](diagrams/)
+- [SAMAEL Case Study](case-studies/samael/)
+- [The Daltons Case Study](case-studies/the-daltons/)
+- [NOESIS Case Study](case-studies/noesis/)

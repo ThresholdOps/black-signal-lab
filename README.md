@@ -10,6 +10,17 @@ For the shared governance framework connecting the case studies, see the [Black 
 
 For a public training module on critical thinking in AI-assisted workflows, see [From Evidence to Decision](training/critical-thinking-for-ai-workflows/).
 
+For the current public baseline, see [STATUS.md](STATUS.md).
+
+## Recommended Reading Path
+
+1. [Portfolio Brief](PORTFOLIO_BRIEF.md)
+2. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+3. [Diagrams](diagrams/)
+4. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
+5. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
+6. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
+
 ## Portfolio Map
 
 - [SAMAEL](case-studies/samael/) - AI-assisted task orchestration, project memory, bounded execution, validation gates, and human review.
@@ -61,4 +72,4 @@ It does not contain:
 
 ## Status
 
-Public portfolio workspace for human review.
+Public portfolio workspace for human review. Current baseline: [Public portfolio baseline v0.1](STATUS.md).
