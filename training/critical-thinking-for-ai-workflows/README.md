@@ -27,9 +27,11 @@ Participants should be able to:
 
 - [Facilitator Outline](facilitator-outline.md) - suggested structure for running a public-safe workshop or discussion session.
 - [Participant Workbook](participant-workbook.md) - participant-facing exercises and reflection prompts.
+- [Facilitator Answer Key](facilitator-answer-key.md) - expected classifications and review guidance for the worked exercise.
 - [Evidence vs Interpretation Example](examples/evidence-vs-interpretation.md) - synthetic classification exercise.
 - [Decision Readiness Checklist](examples/decision-readiness-checklist.md) - review checklist for deciding whether an artifact is ready for approval.
 - [AI Output Review Gate](examples/ai-output-review-gate.md) - gate template for reviewing AI-assisted artifacts before handoff.
+- [Worked AI Output Review](examples/worked-ai-output-review.md) - worked exercise showing how to review a flawed AI-assisted summary.
 
 ## Core Distinctions
 
