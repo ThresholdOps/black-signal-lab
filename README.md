@@ -6,6 +6,8 @@ This repository contains sanitized case studies and example artifacts focused on
 
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
+For the shared governance framework connecting the case studies, see the [Black Signal Governance Model](frameworks/black-signal-governance-model.md).
+
 ## Portfolio Map
 
 - [SAMAEL](case-studies/samael/) - AI-assisted task orchestration, project memory, bounded execution, validation gates, and human review.

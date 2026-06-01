@@ -41,4 +41,5 @@ It does not include personal data, company confidential data, real meeting trans
 ## Links
 
 - [Repository README](README.md)
+- [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
 - [Diagrams](diagrams/)
