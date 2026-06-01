@@ -69,6 +69,10 @@ The Daltons demonstrates AI transformation, process governance, and operating mo
 - [Validation result example](examples/validation-result.example.json)
 - [Handoff note example](examples/handoff-note.example.md)
 
+## Further Reading
+
+- [Evidence-to-decision pattern](evidence-to-decision-pattern.md)
+
 ## Data Boundary
 
 This case study contains only public, synthetic, anonymized, or fully sanitized material.
