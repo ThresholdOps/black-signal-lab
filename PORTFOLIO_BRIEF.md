@@ -42,4 +42,5 @@ It does not include personal data, company confidential data, real meeting trans
 
 - [Repository README](README.md)
 - [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+- [Critical Thinking for AI-Assisted Workflows](training/critical-thinking-for-ai-workflows/)
 - [Diagrams](diagrams/)
