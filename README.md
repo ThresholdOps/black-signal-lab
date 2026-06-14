@@ -6,7 +6,7 @@ This repository contains sanitized case studies and example artifacts focused on
 
 For the lab purpose, boundaries, and human review principle, see the [Lab Charter](LAB_CHARTER.md).
 
-For public audience, value proposition, and concise GitHub/LinkedIn positioning, see [Public Positioning](PUBLIC_POSITIONING.md).
+For public audience, value proposition, and concise project positioning, see [Public Positioning](PUBLIC_POSITIONING.md).
 
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
