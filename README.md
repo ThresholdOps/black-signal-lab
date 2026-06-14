@@ -4,6 +4,8 @@ Black Signal Lab is a public portfolio workspace for governance-oriented AI work
 
 This repository contains sanitized case studies and example artifacts focused on structured execution, explicit boundaries, validation gates, source-of-truth thinking, and human-in-the-loop review. It is not a software-engineering portfolio and does not claim production readiness.
 
+For the lab purpose, boundaries, and human review principle, see the [Lab Charter](LAB_CHARTER.md).
+
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
 For the shared governance framework connecting the case studies, see the [Black Signal Governance Model](frameworks/black-signal-governance-model.md).
@@ -14,12 +16,13 @@ For the current public baseline, see [STATUS.md](STATUS.md).
 
 ## Recommended Reading Path
 
-1. [Portfolio Brief](PORTFOLIO_BRIEF.md)
-2. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
-3. [Diagrams](diagrams/)
-4. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
-5. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
-6. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
+1. [Lab Charter](LAB_CHARTER.md)
+2. [Portfolio Brief](PORTFOLIO_BRIEF.md)
+3. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+4. [Diagrams](diagrams/)
+5. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
+6. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
+7. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
 
 ## Portfolio Map
 
@@ -33,7 +36,7 @@ For the current public baseline, see [STATUS.md](STATUS.md).
 
 **The Daltons** demonstrates how unstructured meeting or document inputs can be converted into structured artifacts without treating model output as final truth. The case study emphasizes source preparation, evidence mapping, JSON artifacts, validation gates, and human-in-the-loop review for process governance.
 
-**NOESIS** demonstrates how telemetry and structured signals can support interpretation, reporting, and governance for persistent systems. The case study focuses on source-of-truth boundaries, interpretation layers, observability gates, and AI-readable system context without exposing private runtime details.
+**NOESIS** demonstrates how telemetry and structured signals can support interpretation, reporting, and governance for persistent systems. The case study focuses on source-of-truth boundaries, interpretation layers, human-readable reporting, observability gates, and AI-readable system context without exposing private runtime details.
 
 ## Why This Matters
 
