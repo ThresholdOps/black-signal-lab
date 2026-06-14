@@ -23,13 +23,15 @@ For a first-time reader, use this path:
 1. `README.md` — main entry point and reading path.
 2. `LAB_CHARTER.md` — lab purpose, boundaries, human review principle.
 3. `PUBLIC_POSITIONING.md` — public audience, value proposition, project positioning.
-4. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
-5. `frameworks/black-signal-governance-model.md` — shared governance model.
-6. `diagrams/` — visual overview of the portfolio and workflows.
-7. `case-studies/` — public-safe case studies and examples.
-8. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-9. `reviews/` — review notes and public-baseline quality checks.
-10. `STATUS.md` — current baseline and development stance.
+4. `REPOSITORY_MAP.md` — repository structure, navigation paths, public/private boundary notes.
+5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
+6. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
+7. `frameworks/black-signal-governance-model.md` — shared governance model.
+8. `diagrams/` — visual overview of the portfolio and workflows.
+9. `case-studies/` — public-safe case studies and examples.
+10. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
+11. `reviews/` — review notes and public-baseline quality checks.
+12. `STATUS.md` — current baseline and development stance.
 
 ## Top-Level Entry Points
 
@@ -55,6 +57,22 @@ It explains the public audience, value proposition, project positioning, persona
 
 Use this document to understand how the lab should be presented without overclaiming or making platform-specific claims.
 
+### `REPOSITORY_MAP.md`
+
+The repository map.
+
+It explains the public repository structure, major folders, navigation paths, public/private boundary notes, and maintenance rules.
+
+Use this document to understand where things belong and what should not be added.
+
+### `METHOD_PRINCIPLES.md`
+
+The method principles document.
+
+It defines six method principles for controlled AI-assisted work: Artifact, Review, Evidence, Human Decision, Boundary, and Anti-Overclaim.
+
+Use this document to understand how the Black Signal Governance Model should behave in practice.
+
 ### `PORTFOLIO_BRIEF.md`
 
 A short portfolio overview.
@@ -78,8 +96,9 @@ Use this document to prevent scope drift.
 ├── README.md
 ├── LAB_CHARTER.md
 ├── PUBLIC_POSITIONING.md
-├── PORTFOLIO_BRIEF.md
 ├── REPOSITORY_MAP.md
+├── METHOD_PRINCIPLES.md
+├── PORTFOLIO_BRIEF.md
 ├── STATUS.md
 │
 ├── frameworks/
@@ -279,6 +298,8 @@ Add material only when it strengthens at least one of the existing public paths:
 
 - lab identity and boundaries,
 - public positioning,
+- repository navigation,
+- method principles,
 - governance model,
 - case-study clarity,
 - visual navigation,
@@ -314,14 +335,16 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 1. `LAB_CHARTER.md`
 2. `PUBLIC_POSITIONING.md`
-3. `STATUS.md`
+3. `REPOSITORY_MAP.md`
+4. `STATUS.md`
 
 ### Method and governance model
 
-1. `frameworks/black-signal-governance-model.md`
-2. `case-studies/samael/README.md`
-3. `case-studies/the-daltons/README.md`
-4. `case-studies/noesis/README.md`
+1. `METHOD_PRINCIPLES.md`
+2. `frameworks/black-signal-governance-model.md`
+3. `case-studies/samael/README.md`
+4. `case-studies/the-daltons/README.md`
+5. `case-studies/noesis/README.md`
 
 ### Concrete examples
 
@@ -345,7 +368,7 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 ## Missing or Deferred Documents
 
-The repository now has a map, charter, positioning document, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
+The repository now has a map, charter, positioning document, method principles, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
 
 Potential future documents should be added only if they solve a concrete navigation or boundary problem.
 
