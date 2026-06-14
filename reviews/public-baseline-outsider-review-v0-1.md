@@ -26,7 +26,7 @@ The repository does not require the reader to understand implementation details 
 - The Daltons walkthrough gives a concrete synthetic path from source notes to reviewed output.
 - The Critical Thinking training module reinforces the central governance principle in a reader-friendly format.
 - Privacy and data-boundary statements are repeated consistently across major entry points.
-- The content is suitable for LinkedIn, CV, recruiter, hiring-manager, governance-reviewer, and technical-reviewer contexts.
+- The content is suitable for professional portfolio, CV, hiring-manager, governance-reviewer, and technical-reviewer contexts.
 
 ## Drift Check
 
@@ -65,7 +65,7 @@ The current public baseline has low risk of looking like a production system. Th
 Main risks to manage:
 
 - **Too much content:** Additional examples or training materials could make the repository harder to scan.
-- **Audience spread:** The content serves recruiters, hiring managers, governance reviewers, and technical reviewers; future additions should avoid trying to satisfy every audience at once.
+- **Audience spread:** The content serves hiring managers, governance reviewers, technical reviewers, and professional portfolio reviewers; future additions should avoid trying to satisfy every audience at once.
 - **Navigation depth:** The repository is still navigable, but new material should be added only if it strengthens an existing path.
 - **Overclaiming risk:** Current wording is controlled, but future additions should continue avoiding claims of production readiness, official training status, or final truth.
 - **Product impression:** The project names and structured artifacts could look like product modules if the public portfolio framing is weakened.
