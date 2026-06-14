@@ -25,13 +25,14 @@ For a first-time reader, use this path:
 3. `PUBLIC_POSITIONING.md` — public audience, value proposition, project positioning.
 4. `REPOSITORY_MAP.md` — repository structure, navigation paths, public/private boundary notes.
 5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
-6. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
-7. `frameworks/black-signal-governance-model.md` — shared governance model.
-8. `diagrams/` — visual overview of the portfolio and workflows.
-9. `case-studies/` — public-safe case studies and examples.
-10. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-11. `reviews/` — review notes and public-baseline quality checks.
-12. `STATUS.md` — current baseline and development stance.
+6. `ARTIFACT_LIFECYCLE.md` — lifecycle from input to artifact, review, decision, storage, and improvement.
+7. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
+8. `frameworks/black-signal-governance-model.md` — shared governance model.
+9. `diagrams/` — visual overview of the portfolio and workflows.
+10. `case-studies/` — public-safe case studies and examples.
+11. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
+12. `reviews/` — review notes and public-baseline quality checks.
+13. `STATUS.md` — current baseline and development stance.
 
 ## Top-Level Entry Points
 
@@ -73,6 +74,14 @@ It defines six method principles for controlled AI-assisted work: Artifact, Revi
 
 Use this document to understand how the Black Signal Governance Model should behave in practice.
 
+### `ARTIFACT_LIFECYCLE.md`
+
+The artifact lifecycle document.
+
+It describes how messy inputs become reviewable artifacts and move through validation, human review, decision, storage, and improvement.
+
+Use this document to understand the movement of work from input boundary to accountable handoff.
+
 ### `PORTFOLIO_BRIEF.md`
 
 A short portfolio overview.
@@ -98,6 +107,7 @@ Use this document to prevent scope drift.
 ├── PUBLIC_POSITIONING.md
 ├── REPOSITORY_MAP.md
 ├── METHOD_PRINCIPLES.md
+├── ARTIFACT_LIFECYCLE.md
 ├── PORTFOLIO_BRIEF.md
 ├── STATUS.md
 │
@@ -300,6 +310,7 @@ Add material only when it strengthens at least one of the existing public paths:
 - public positioning,
 - repository navigation,
 - method principles,
+- artifact lifecycle,
 - governance model,
 - case-study clarity,
 - visual navigation,
@@ -341,10 +352,11 @@ Do not add new categories unless they are necessary for navigation, review, or p
 ### Method and governance model
 
 1. `METHOD_PRINCIPLES.md`
-2. `frameworks/black-signal-governance-model.md`
-3. `case-studies/samael/README.md`
-4. `case-studies/the-daltons/README.md`
-5. `case-studies/noesis/README.md`
+2. `ARTIFACT_LIFECYCLE.md`
+3. `frameworks/black-signal-governance-model.md`
+4. `case-studies/samael/README.md`
+5. `case-studies/the-daltons/README.md`
+6. `case-studies/noesis/README.md`
 
 ### Concrete examples
 
@@ -368,7 +380,7 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 ## Missing or Deferred Documents
 
-The repository now has a map, charter, positioning document, method principles, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
+The repository now has a map, charter, positioning document, method principles, artifact lifecycle, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
 
 Potential future documents should be added only if they solve a concrete navigation or boundary problem.
 
