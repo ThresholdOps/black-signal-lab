@@ -8,6 +8,8 @@ For the lab purpose, boundaries, and human review principle, see the [Lab Charte
 
 For public audience, value proposition, and concise project positioning, see [Public Positioning](PUBLIC_POSITIONING.md).
 
+For repository structure, navigation paths, and public/private boundary notes, see the [Repository Map](REPOSITORY_MAP.md).
+
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
 For the shared governance framework connecting the case studies, see the [Black Signal Governance Model](frameworks/black-signal-governance-model.md).
@@ -20,12 +22,13 @@ For the current public baseline, see [STATUS.md](STATUS.md).
 
 1. [Lab Charter](LAB_CHARTER.md)
 2. [Public Positioning](PUBLIC_POSITIONING.md)
-3. [Portfolio Brief](PORTFOLIO_BRIEF.md)
-4. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
-5. [Diagrams](diagrams/)
-6. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
-7. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
-8. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
+3. [Repository Map](REPOSITORY_MAP.md)
+4. [Portfolio Brief](PORTFOLIO_BRIEF.md)
+5. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+6. [Diagrams](diagrams/)
+7. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
+8. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
+9. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
 
 ## Portfolio Map
 
