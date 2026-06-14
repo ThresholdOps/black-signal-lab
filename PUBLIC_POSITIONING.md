@@ -55,7 +55,7 @@ The primary audience includes:
 - AI governance and responsible-AI stakeholders,
 - IT transformation leaders,
 - data governance practitioners,
-- recruiters looking for evidence of practical AI fluency,
+- portfolio reviewers looking for evidence of practical AI fluency,
 - people designing human-in-the-loop workflows.
 
 The lab is especially relevant for environments where ambiguity, weak evidence, unclear ownership, or uncontrolled automation can create real operational risk.
@@ -79,7 +79,7 @@ For governance practitioners, it demonstrates review discipline, source-of-truth
 
 For process and data governance audiences, it demonstrates how AI-assisted work can support structure without weakening accountability.
 
-For recruiters, it provides a public, reviewable signal of AI-assisted workflow competence beyond generic prompt usage.
+For portfolio reviewers, it provides a public, reviewable signal of AI-assisted workflow competence beyond generic prompt usage.
 
 ## Personal Operating Model
 
@@ -130,13 +130,13 @@ It does not publish personal data, company confidential data, real meeting trans
 
 The public lab shows the method, not the private machinery.
 
-## Concise GitHub Description
+## Concise Repository Description
 
 Public methodology lab for controlled AI-assisted work: structured artifacts, validation gates, source-of-truth boundaries, human review, and accountable decisions.
 
-## Concise LinkedIn Description
+## Concise Public Description
 
-Black Signal Lab is my public lab for controlled AI-assisted work: turning messy information into structured, reviewable artifacts while keeping evidence, boundaries, and human accountability visible.
+Black Signal Lab is a public lab for controlled AI-assisted work: turning messy information into structured, reviewable artifacts while keeping evidence, boundaries, and human accountability visible.
 
 ## Short Pitch
 
