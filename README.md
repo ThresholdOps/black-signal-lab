@@ -14,6 +14,8 @@ For method principles for controlled AI-assisted work, see [Method Principles](M
 
 For the artifact lifecycle from input to review, decision, storage, and improvement loop, see [Artifact Lifecycle](ARTIFACT_LIFECYCLE.md).
 
+For the doctrine that AI output is review material, not final truth or decision authority, see [Review Material Doctrine](REVIEW_MATERIAL_DOCTRINE.md).
+
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
 
 For the shared governance framework connecting the case studies, see the [Black Signal Governance Model](frameworks/black-signal-governance-model.md).
@@ -29,12 +31,13 @@ For the current public baseline, see [STATUS.md](STATUS.md).
 3. [Repository Map](REPOSITORY_MAP.md)
 4. [Method Principles](METHOD_PRINCIPLES.md)
 5. [Artifact Lifecycle](ARTIFACT_LIFECYCLE.md)
-6. [Portfolio Brief](PORTFOLIO_BRIEF.md)
-7. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
-8. [Diagrams](diagrams/)
-9. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
-10. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
-11. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
+6. [Review Material Doctrine](REVIEW_MATERIAL_DOCTRINE.md)
+7. [Portfolio Brief](PORTFOLIO_BRIEF.md)
+8. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+9. [Diagrams](diagrams/)
+10. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
+11. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
+12. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
 
 ## Portfolio Map
 
