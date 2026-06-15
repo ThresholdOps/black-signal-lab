@@ -26,13 +26,14 @@ For a first-time reader, use this path:
 4. `REPOSITORY_MAP.md` — repository structure, navigation paths, public/private boundary notes.
 5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
 6. `ARTIFACT_LIFECYCLE.md` — lifecycle from input to artifact, review, decision, storage, and improvement.
-7. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
-8. `frameworks/black-signal-governance-model.md` — shared governance model.
-9. `diagrams/` — visual overview of the portfolio and workflows.
-10. `case-studies/` — public-safe case studies and examples.
-11. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-12. `reviews/` — review notes and public-baseline quality checks.
-13. `STATUS.md` — current baseline and development stance.
+7. `REVIEW_MATERIAL_DOCTRINE.md` — doctrine that AI output is review material, not truth or decision authority.
+8. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
+9. `frameworks/black-signal-governance-model.md` — shared governance model.
+10. `diagrams/` — visual overview of the portfolio and workflows.
+11. `case-studies/` — public-safe case studies and examples.
+12. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
+13. `reviews/` — review notes and public-baseline quality checks.
+14. `STATUS.md` — current baseline and development stance.
 
 ## Top-Level Entry Points
 
@@ -82,6 +83,14 @@ It describes how messy inputs become reviewable artifacts and move through valid
 
 Use this document to understand the movement of work from input boundary to accountable handoff.
 
+### `REVIEW_MATERIAL_DOCTRINE.md`
+
+The review material doctrine.
+
+It defines the status of AI output, reviewer responsibility, human decision ownership, and what must not be automated.
+
+Use this document to understand the hard boundary between review material and approved truth, decision, or action.
+
 ### `PORTFOLIO_BRIEF.md`
 
 A short portfolio overview.
@@ -108,6 +117,7 @@ Use this document to prevent scope drift.
 ├── REPOSITORY_MAP.md
 ├── METHOD_PRINCIPLES.md
 ├── ARTIFACT_LIFECYCLE.md
+├── REVIEW_MATERIAL_DOCTRINE.md
 ├── PORTFOLIO_BRIEF.md
 ├── STATUS.md
 │
@@ -311,6 +321,7 @@ Add material only when it strengthens at least one of the existing public paths:
 - repository navigation,
 - method principles,
 - artifact lifecycle,
+- review doctrine,
 - governance model,
 - case-study clarity,
 - visual navigation,
@@ -353,10 +364,11 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 1. `METHOD_PRINCIPLES.md`
 2. `ARTIFACT_LIFECYCLE.md`
-3. `frameworks/black-signal-governance-model.md`
-4. `case-studies/samael/README.md`
-5. `case-studies/the-daltons/README.md`
-6. `case-studies/noesis/README.md`
+3. `REVIEW_MATERIAL_DOCTRINE.md`
+4. `frameworks/black-signal-governance-model.md`
+5. `case-studies/samael/README.md`
+6. `case-studies/the-daltons/README.md`
+7. `case-studies/noesis/README.md`
 
 ### Concrete examples
 
@@ -380,7 +392,7 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 ## Missing or Deferred Documents
 
-The repository now has a map, charter, positioning document, method principles, artifact lifecycle, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
+The repository now has a map, charter, positioning document, method principles, artifact lifecycle, review doctrine, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
 
 Potential future documents should be added only if they solve a concrete navigation or boundary problem.
 
