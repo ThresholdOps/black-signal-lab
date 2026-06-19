@@ -66,6 +66,7 @@ SAMAEL demonstrates AI transformation and workflow governance patterns that are 
 
 ## Further Reading
 
+- [SAMAEL public boundary](public-boundary.md)
 - [SAMAEL governance pattern](governance-pattern.md)
 
 ## Data Boundary
