@@ -21,6 +21,8 @@ It is intended to show public-safe patterns for making AI-assisted work reviewab
 - Example catalog
 - README plan
 - GitHub hygiene review
+- Sensitive content review
+- Publication boundary
 - License decision
 - Portfolio brief
 - Black Signal Governance Model
@@ -52,15 +54,16 @@ It is intended to show public-safe patterns for making AI-assisted work reviewab
 
 Feature expansion is paused at the public portfolio baseline v0.1.
 
-Next work should be limited to quality review, navigation, consistency, publication boundary decisions, license-status maintenance, or selected public-safe walkthrough and training improvements.
+Next work should be limited to quality review, navigation, consistency, license-status maintenance, publication-boundary maintenance, or selected public-safe walkthrough and training improvements.
 
 ## Known Hygiene Notes
 
 - `README_PLAN.md` exists as a README maintenance planning artifact.
 - `GITHUB_HYGIENE_REVIEW.md` records the current hygiene review.
+- `SENSITIVE_CONTENT_REVIEW.md` records the sensitive-content review result: pass with limitations.
+- `PUBLICATION_BOUNDARY.md` records the controlled publication boundary.
 - `LICENSE_DECISION.md` records the decision to defer adding a license file for now.
 - No public reuse license has been selected yet.
-- Any wider external promotion should be preceded by a dedicated sensitive-content review.
 
 ## License and Reuse Status
 
@@ -69,6 +72,14 @@ No public reuse license has been selected yet.
 The repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
 
 See `LICENSE_DECISION.md`.
+
+## Publication Status
+
+Controlled public portfolio visibility is allowed.
+
+Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved yet.
+
+See `SENSITIVE_CONTENT_REVIEW.md` and `PUBLICATION_BOUNDARY.md`.
 
 ## Privacy and Data Boundary
 
