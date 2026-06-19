@@ -30,6 +30,8 @@ For a public training module on critical thinking in AI-assisted workflows, see 
 
 For license posture and reuse boundaries, see [License Decision](LICENSE_DECISION.md).
 
+For sensitive-content and publication-boundary review, see [Sensitive Content Review](SENSITIVE_CONTENT_REVIEW.md) and [Publication Boundary](PUBLICATION_BOUNDARY.md).
+
 For the current public baseline, see [STATUS.md](STATUS.md).
 
 ## Recommended Reading Path
