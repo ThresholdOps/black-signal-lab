@@ -27,14 +27,15 @@ For a first-time reader, use this path:
 5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
 6. `ARTIFACT_LIFECYCLE.md` — lifecycle from input to artifact, review, decision, storage, and improvement.
 7. `REVIEW_MATERIAL_DOCTRINE.md` — doctrine that AI output is review material, not truth or decision authority.
-8. `EXAMPLE_CATALOG.md` — public-safe example catalog and method mapping.
-9. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
-10. `frameworks/black-signal-governance-model.md` — shared governance model.
-11. `diagrams/` — visual overview of the portfolio and workflows.
-12. `case-studies/` — public-safe case studies and examples.
-13. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-14. `reviews/` — review notes and public-baseline quality checks.
-15. `STATUS.md` — current baseline and development stance.
+8. `GOVERNANCE_VOCABULARY.md` — core terms used across Black Signal Lab.
+9. `EXAMPLE_CATALOG.md` — public-safe example catalog and method mapping.
+10. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
+11. `frameworks/black-signal-governance-model.md` — shared governance model.
+12. `diagrams/` — visual overview of the portfolio and workflows.
+13. `case-studies/` — public-safe case studies and examples.
+14. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
+15. `reviews/` — review notes and public-baseline quality checks.
+16. `STATUS.md` — current baseline and development stance.
 
 ## Top-Level Entry Points
 
@@ -92,6 +93,14 @@ It defines the status of AI output, reviewer responsibility, human decision owne
 
 Use this document to understand the hard boundary between review material and approved truth, decision, or action.
 
+### `GOVERNANCE_VOCABULARY.md`
+
+The governance vocabulary.
+
+It defines the core terms used across Black Signal Lab: artifact, review material, evidence, decision, interpretation, source of truth, validation, human gate, and operating model.
+
+Use this document to keep public artifacts consistent and prevent method words from drifting into decoration.
+
 ### `EXAMPLE_CATALOG.md`
 
 The example catalog.
@@ -127,6 +136,7 @@ Use this document to prevent scope drift.
 ├── METHOD_PRINCIPLES.md
 ├── ARTIFACT_LIFECYCLE.md
 ├── REVIEW_MATERIAL_DOCTRINE.md
+├── GOVERNANCE_VOCABULARY.md
 ├── EXAMPLE_CATALOG.md
 ├── PORTFOLIO_BRIEF.md
 ├── STATUS.md
@@ -332,6 +342,7 @@ Add material only when it strengthens at least one of the existing public paths:
 - method principles,
 - artifact lifecycle,
 - review doctrine,
+- governance vocabulary,
 - example catalog,
 - governance model,
 - case-study clarity,
@@ -376,11 +387,12 @@ Do not add new categories unless they are necessary for navigation, review, or p
 1. `METHOD_PRINCIPLES.md`
 2. `ARTIFACT_LIFECYCLE.md`
 3. `REVIEW_MATERIAL_DOCTRINE.md`
-4. `EXAMPLE_CATALOG.md`
-5. `frameworks/black-signal-governance-model.md`
-6. `case-studies/samael/README.md`
-7. `case-studies/the-daltons/README.md`
-8. `case-studies/noesis/README.md`
+4. `GOVERNANCE_VOCABULARY.md`
+5. `EXAMPLE_CATALOG.md`
+6. `frameworks/black-signal-governance-model.md`
+7. `case-studies/samael/README.md`
+8. `case-studies/the-daltons/README.md`
+9. `case-studies/noesis/README.md`
 
 ### Concrete examples
 
@@ -405,7 +417,7 @@ Do not add new categories unless they are necessary for navigation, review, or p
 
 ## Missing or Deferred Documents
 
-The repository now has a map, charter, positioning document, method principles, artifact lifecycle, review doctrine, example catalog, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
+The repository now has a map, charter, positioning document, method principles, artifact lifecycle, review doctrine, governance vocabulary, example catalog, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
 
 Potential future documents should be added only if they solve a concrete navigation or boundary problem.
 
