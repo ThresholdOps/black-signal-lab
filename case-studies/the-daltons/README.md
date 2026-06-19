@@ -71,6 +71,7 @@ The Daltons demonstrates AI transformation, process governance, and operating mo
 
 ## Further Reading
 
+- [The Daltons public boundary](public-boundary.md)
 - [Synthetic evidence-to-decision walkthrough](walkthrough.md)
 - [Evidence-to-decision pattern](evidence-to-decision-pattern.md)
 
