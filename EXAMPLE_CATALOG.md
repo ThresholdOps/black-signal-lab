@@ -170,6 +170,8 @@ This example may show synthetic event contracts, telemetry examples, interpretat
 
 It must not expose private runtime logs, real server paths, infrastructure details, production configuration, internal URLs, credentials, secrets, private account names, or operational system identifiers.
 
+For the detailed NOESIS boundary, see [`case-studies/noesis/public-boundary.md`](case-studies/noesis/public-boundary.md).
+
 ## Cross-Example Pattern
 
 The three examples demonstrate one shared pattern in different domains:
@@ -271,3 +273,4 @@ Suggested sequence:
 7. `case-studies/the-daltons/README.md`
 8. `case-studies/the-daltons/public-boundary.md`
 9. `case-studies/noesis/README.md`
+10. `case-studies/noesis/public-boundary.md`
