@@ -71,6 +71,8 @@ This example may show public-safe task contracts, validation gates, handoff note
 
 It must not expose private agent instructions, private project memory records, internal task logs, private infrastructure, credentials, secrets, local paths, or operational implementation details.
 
+For the detailed SAMAEL boundary, see [`case-studies/samael/public-boundary.md`](case-studies/samael/public-boundary.md).
+
 ## The Daltons Example
 
 ### Short Description
@@ -263,5 +265,6 @@ Suggested sequence:
 3. `REVIEW_MATERIAL_DOCTRINE.md`
 4. `EXAMPLE_CATALOG.md`
 5. `case-studies/samael/README.md`
-6. `case-studies/the-daltons/README.md`
-7. `case-studies/noesis/README.md`
+6. `case-studies/samael/public-boundary.md`
+7. `case-studies/the-daltons/README.md`
+8. `case-studies/noesis/README.md`
