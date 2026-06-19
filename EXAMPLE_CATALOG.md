@@ -121,6 +121,8 @@ This example may show synthetic source notes, source profiles, evidence maps, va
 
 It must not expose real meeting transcripts, real project documents, employer/client records, confidential decisions, internal URLs, private paths, or copied internal material.
 
+For the detailed Daltons boundary, see [`case-studies/the-daltons/public-boundary.md`](case-studies/the-daltons/public-boundary.md).
+
 ## NOESIS Example
 
 ### Short Description
@@ -267,4 +269,5 @@ Suggested sequence:
 5. `case-studies/samael/README.md`
 6. `case-studies/samael/public-boundary.md`
 7. `case-studies/the-daltons/README.md`
-8. `case-studies/noesis/README.md`
+8. `case-studies/the-daltons/public-boundary.md`
+9. `case-studies/noesis/README.md`
