@@ -42,6 +42,8 @@ For a first-time reader, use this path:
 
 `GITHUB_HYGIENE_REVIEW.md` is a repository hygiene review artifact. It records review findings and cleanup actions, but it is not part of the core reading path.
 
+`LICENSE_DECISION.md` records the current license posture and reuse boundary. It is important for reuse questions, but it is not a method primer.
+
 ## Top-Level Entry Points
 
 ### `README.md`
@@ -57,6 +59,14 @@ The README planning artifact.
 It defines the intended README structure, short public introduction, examples section, non-goals section, privacy wording, and README maintenance rules.
 
 Use this document when changing the README. It is not a substitute for the README itself.
+
+### `LICENSE_DECISION.md`
+
+The license decision artifact.
+
+It records that no public reuse license has been selected yet, explains no-license implications, compares high-level license options, and defines the current reuse boundary.
+
+Use this document when answering reuse, contribution, or license-status questions.
 
 ### `LAB_CHARTER.md`
 
@@ -122,7 +132,7 @@ It summarizes what the repository demonstrates and introduces the three case stu
 
 The current public baseline status.
 
-It states the repository baseline, current contents, what the repository is and is not, known hygiene notes, and current development stance.
+It states the repository baseline, current contents, what the repository is and is not, known hygiene notes, license/reuse status, and current development stance.
 
 ## Folder Map
 
@@ -130,6 +140,7 @@ It states the repository baseline, current contents, what the repository is and 
 /
 ├── README.md
 ├── README_PLAN.md
+├── LICENSE_DECISION.md
 ├── LAB_CHARTER.md
 ├── PUBLIC_POSITIONING.md
 ├── REPOSITORY_MAP.md
@@ -222,6 +233,14 @@ It must not include private project material, confidential organizational conten
 
 The public repository shows the method, not the private machinery.
 
+## License / Reuse Boundary
+
+No public reuse license has been selected yet.
+
+This repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
+
+Use `LICENSE_DECISION.md` for license-status questions.
+
 ## What Belongs in This Repository
 
 Add material only when it strengthens at least one of these public paths:
@@ -230,6 +249,7 @@ Add material only when it strengthens at least one of these public paths:
 - public positioning,
 - repository navigation,
 - README planning and maintenance,
+- license/reuse status clarity,
 - method principles,
 - artifact lifecycle,
 - review doctrine,
@@ -295,6 +315,12 @@ Do not add material that makes the repository look like:
 2. `REPOSITORY_MAP.md`
 3. `STATUS.md`
 
+### License / reuse questions
+
+1. `LICENSE_DECISION.md`
+2. `README.md`
+3. `STATUS.md`
+
 ### Baseline review and quality control
 
 1. `STATUS.md`
@@ -306,9 +332,9 @@ Do not add material that makes the repository look like:
 
 Known follow-up candidates:
 
-- license decision artifact or task,
 - publication boundary artifact if publication workflow needs its own explicit gate,
-- dedicated sensitive-content review before wider external promotion.
+- dedicated sensitive-content review before wider external promotion,
+- actual `LICENSE` file only if a later license decision explicitly approves one.
 
 Do not add these by default.
 
