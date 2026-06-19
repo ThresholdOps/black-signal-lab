@@ -21,6 +21,7 @@ It is intended to show public-safe patterns for making AI-assisted work reviewab
 - Example catalog
 - README plan
 - GitHub hygiene review
+- License decision
 - Portfolio brief
 - Black Signal Governance Model
 - Three case studies: SAMAEL, The Daltons, and NOESIS
@@ -45,20 +46,29 @@ It is intended to show public-safe patterns for making AI-assisted work reviewab
 - An official training program, certification, or accredited course
 - A repository of private project materials
 - A source of final truth, approved business records, or autonomous decisions
-- A license decision or publication-governance decision
+- An open-source or open-content project with a selected reuse license
 
 ## Current Development Stance
 
 Feature expansion is paused at the public portfolio baseline v0.1.
 
-Next work should be limited to quality review, navigation, consistency, license decision, publication boundary decisions, or selected public-safe walkthrough and training improvements.
+Next work should be limited to quality review, navigation, consistency, publication boundary decisions, license-status maintenance, or selected public-safe walkthrough and training improvements.
 
 ## Known Hygiene Notes
 
 - `README_PLAN.md` exists as a README maintenance planning artifact.
 - `GITHUB_HYGIENE_REVIEW.md` records the current hygiene review.
-- License status still requires a separate decision task.
+- `LICENSE_DECISION.md` records the decision to defer adding a license file for now.
+- No public reuse license has been selected yet.
 - Any wider external promotion should be preceded by a dedicated sensitive-content review.
+
+## License and Reuse Status
+
+No public reuse license has been selected yet.
+
+The repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
+
+See `LICENSE_DECISION.md`.
 
 ## Privacy and Data Boundary
 
