@@ -16,6 +16,8 @@ For the artifact lifecycle from input to review, decision, storage, and improvem
 
 For the doctrine that AI output is review material, not final truth or decision authority, see [Review Material Doctrine](REVIEW_MATERIAL_DOCTRINE.md).
 
+For the core vocabulary used by Black Signal Lab, see [Governance Vocabulary](GOVERNANCE_VOCABULARY.md).
+
 For the public-safe examples used by Black Signal Lab, see the [Example Catalog](EXAMPLE_CATALOG.md).
 
 For a one-page overview, see the [Portfolio Brief](PORTFOLIO_BRIEF.md).
@@ -34,13 +36,14 @@ For the current public baseline, see [STATUS.md](STATUS.md).
 4. [Method Principles](METHOD_PRINCIPLES.md)
 5. [Artifact Lifecycle](ARTIFACT_LIFECYCLE.md)
 6. [Review Material Doctrine](REVIEW_MATERIAL_DOCTRINE.md)
-7. [Example Catalog](EXAMPLE_CATALOG.md)
-8. [Portfolio Brief](PORTFOLIO_BRIEF.md)
-9. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
-10. [Diagrams](diagrams/)
-11. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
-12. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
-13. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
+7. [Governance Vocabulary](GOVERNANCE_VOCABULARY.md)
+8. [Example Catalog](EXAMPLE_CATALOG.md)
+9. [Portfolio Brief](PORTFOLIO_BRIEF.md)
+10. [Black Signal Governance Model](frameworks/black-signal-governance-model.md)
+11. [Diagrams](diagrams/)
+12. Case studies: [SAMAEL](case-studies/samael/), [The Daltons](case-studies/the-daltons/), [NOESIS](case-studies/noesis/)
+13. [The Daltons synthetic walkthrough](case-studies/the-daltons/walkthrough.md)
+14. [Critical Thinking training module](training/critical-thinking-for-ai-workflows/)
 
 ## Portfolio Map
 
