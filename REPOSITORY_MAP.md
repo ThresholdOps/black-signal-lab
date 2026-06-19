@@ -4,7 +4,7 @@
 
 This document maps the public structure of the Black Signal Lab repository.
 
-It explains what each major area is for, how the repository should be read, and where the public/private boundary sits.
+It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private boundary sits.
 
 The map is a navigation and governance artifact. It is not a technical architecture document, implementation reference, or product roadmap.
 
@@ -12,7 +12,7 @@ The map is a navigation and governance artifact. It is not a technical architect
 
 Black Signal Lab is a public methodology and portfolio repository for controlled AI-assisted work.
 
-The repository demonstrates how AI-assisted workflows can be structured around artifacts, validation gates, source-of-truth boundaries, public-safe examples, and human review.
+The repository demonstrates how AI-assisted workflows can be structured around artifacts, validation gates, source-of-truth boundaries, public-safe examples, human review, and human decision gates.
 
 The repository does not contain private implementation details, production configuration, real operational logs, real project documents, or confidential material.
 
@@ -23,20 +23,24 @@ For a first-time reader, use this path:
 1. `README.md` — main entry point and reading path.
 2. `LAB_CHARTER.md` — lab purpose, boundaries, human review principle.
 3. `PUBLIC_POSITIONING.md` — public audience, value proposition, project positioning.
-4. `REPOSITORY_MAP.md` — repository structure, navigation paths, public/private boundary notes.
+4. `REPOSITORY_MAP.md` — repository structure, navigation paths, and boundary notes.
 5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
-6. `ARTIFACT_LIFECYCLE.md` — lifecycle from input to artifact, review, decision, storage, and improvement.
-7. `REVIEW_MATERIAL_DOCTRINE.md` — doctrine that AI output is review material, not truth or decision authority.
-8. `HUMAN_DECISION_GATE.md` — human decision gate for acceptance, rejection, escalation, and recorded decisions.
+6. `ARTIFACT_LIFECYCLE.md` — how inputs become reviewable artifacts.
+7. `REVIEW_MATERIAL_DOCTRINE.md` — why AI output remains review material.
+8. `HUMAN_DECISION_GATE.md` — how review material becomes accepted, rejected, escalated, deferred, or recorded.
 9. `GOVERNANCE_VOCABULARY.md` — core terms used across Black Signal Lab.
-10. `EXAMPLE_CATALOG.md` — public-safe example catalog and method mapping.
-11. `PORTFOLIO_BRIEF.md` — compact overview of the portfolio and case studies.
+10. `EXAMPLE_CATALOG.md` — public-safe examples and method mapping.
+11. `PORTFOLIO_BRIEF.md` — compact portfolio overview.
 12. `frameworks/black-signal-governance-model.md` — shared governance model.
-13. `diagrams/` — visual overview of the portfolio and workflows.
-14. `case-studies/` — public-safe case studies and examples.
+13. `case-studies/` — public-safe case studies and examples.
+14. `diagrams/` — visual overview of the portfolio and workflows.
 15. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-16. `reviews/` — review notes and public-baseline quality checks.
+16. `reviews/` — public-baseline review material.
 17. `STATUS.md` — current baseline and development stance.
+
+`README_PLAN.md` is a README maintenance planning artifact. It is useful when changing the README, but it is not required for first-time reading.
+
+`GITHUB_HYGIENE_REVIEW.md` is a repository hygiene review artifact. It records review findings and cleanup actions, but it is not part of the core reading path.
 
 ## Top-Level Entry Points
 
@@ -44,7 +48,15 @@ For a first-time reader, use this path:
 
 The main public entry point.
 
-It explains what Black Signal Lab is, links to the core documents, provides the recommended reading path, summarizes the portfolio map, and states the privacy/data boundary.
+It explains what Black Signal Lab is, links to the core documents, summarizes the portfolio map, and states the privacy/data boundary.
+
+### `README_PLAN.md`
+
+The README planning artifact.
+
+It defines the intended README structure, short public introduction, examples section, non-goals section, privacy wording, and README maintenance rules.
+
+Use this document when changing the README. It is not a substitute for the README itself.
 
 ### `LAB_CHARTER.md`
 
@@ -52,39 +64,23 @@ The lab charter.
 
 It defines the purpose of Black Signal Lab, what it is and is not, the target audience, the human review principle, artifact principle, boundary principle, and public-safe scope.
 
-Use this document to understand the lab's identity and operating boundaries.
-
 ### `PUBLIC_POSITIONING.md`
 
 The public positioning document.
 
-It explains the public audience, value proposition, project positioning, personal operating model, tone, non-goals, and public-safety boundary.
-
-Use this document to understand how the lab should be presented without overclaiming or making platform-specific claims.
-
-### `REPOSITORY_MAP.md`
-
-The repository map.
-
-It explains the public repository structure, major folders, navigation paths, public/private boundary notes, and maintenance rules.
-
-Use this document to understand where things belong and what should not be added.
+It explains audience, value proposition, project positioning, tone, non-goals, and public-safety boundary.
 
 ### `METHOD_PRINCIPLES.md`
 
 The method principles document.
 
-It defines six method principles for controlled AI-assisted work: Artifact, Review, Evidence, Human Decision, Boundary, and Anti-Overclaim.
-
-Use this document to understand how the Black Signal Governance Model should behave in practice.
+It defines Artifact, Review, Evidence, Human Decision, Boundary, and Anti-Overclaim principles.
 
 ### `ARTIFACT_LIFECYCLE.md`
 
 The artifact lifecycle document.
 
-It describes how messy inputs become reviewable artifacts and move through validation, human review, decision, storage, and improvement.
-
-Use this document to understand the movement of work from input boundary to accountable handoff.
+It describes how messy inputs become reviewable artifacts and move through validation, review, decision, storage, and improvement.
 
 ### `REVIEW_MATERIAL_DOCTRINE.md`
 
@@ -92,15 +88,11 @@ The review material doctrine.
 
 It defines the status of AI output, reviewer responsibility, human decision ownership, and what must not be automated.
 
-Use this document to understand the hard boundary between review material and approved truth, decision, or action.
-
 ### `HUMAN_DECISION_GATE.md`
 
 The human decision gate.
 
 It defines what AI may prepare, what AI must not decide, who reviews, who accepts responsibility, how decisions are recorded, and when escalation is required.
-
-Use this document to understand how review material becomes accepted, rejected, escalated, deferred, or recorded by a human decision owner.
 
 ### `GOVERNANCE_VOCABULARY.md`
 
@@ -108,37 +100,36 @@ The governance vocabulary.
 
 It defines the core terms used across Black Signal Lab: artifact, review material, evidence, decision, interpretation, source of truth, validation, human gate, and operating model.
 
-Use this document to keep public artifacts consistent and prevent method words from drifting into decoration.
-
 ### `EXAMPLE_CATALOG.md`
 
 The example catalog.
 
 It lists the public-safe examples used by Black Signal Lab and maps SAMAEL, The Daltons, and NOESIS to the method principles, artifact lifecycle, and public/private boundary.
 
-Use this document to understand what each example demonstrates and what it does not expose.
+### `GITHUB_HYGIENE_REVIEW.md`
+
+The GitHub hygiene review.
+
+It records the repository hygiene review, including README clarity, repository structure, public/private boundary, license status, placeholder review, sensitive-content limitation, and cleanup action list.
 
 ### `PORTFOLIO_BRIEF.md`
 
 A short portfolio overview.
 
-It summarizes what the repository demonstrates and introduces the three case studies: SAMAEL, The Daltons, and NOESIS.
-
-Use this document as the one-page executive overview.
+It summarizes what the repository demonstrates and introduces the three case studies.
 
 ### `STATUS.md`
 
 The current public baseline status.
 
-It states the repository baseline, current contents, what the repository is and is not, and the current development stance.
-
-Use this document to prevent scope drift.
+It states the repository baseline, current contents, what the repository is and is not, known hygiene notes, and current development stance.
 
 ## Folder Map
 
 ```text
 /
 ├── README.md
+├── README_PLAN.md
 ├── LAB_CHARTER.md
 ├── PUBLIC_POSITIONING.md
 ├── REPOSITORY_MAP.md
@@ -148,6 +139,7 @@ Use this document to prevent scope drift.
 ├── HUMAN_DECISION_GATE.md
 ├── GOVERNANCE_VOCABULARY.md
 ├── EXAMPLE_CATALOG.md
+├── GITHUB_HYGIENE_REVIEW.md
 ├── PORTFOLIO_BRIEF.md
 ├── STATUS.md
 │
@@ -160,154 +152,55 @@ Use this document to prevent scope drift.
 │   └── noesis/
 │
 ├── diagrams/
-│   ├── README.md
-│   ├── black-signal-lab-map.md
-│   ├── samael-workflow.md
-│   ├── the-daltons-workflow.md
-│   └── noesis-workflow.md
-│
 ├── training/
-│   └── critical-thinking-for-ai-workflows/
-│
 └── reviews/
-    └── public-baseline-outsider-review-v0-1.md
 ```
 
-This is a public-facing map, not a full file inventory. It shows the major navigation areas and their intended roles.
+This is a public-facing map, not a full file inventory.
 
-## `frameworks/`
+## Folder Roles
 
-The `frameworks/` directory contains conceptual models shared across the repository.
+### `frameworks/`
+
+Shared governance models and conceptual patterns.
 
 Current primary artifact:
 
 - `black-signal-governance-model.md`
 
-This model connects the case studies through shared concepts such as input boundary, source of truth, structured artifact, validation gate, human review, approved handoff, evidence and traceability, and anti-overclaim boundary.
+### `case-studies/`
 
-What belongs here:
-
-- shared governance models,
-- conceptual frameworks,
-- cross-case patterns,
-- public-safe operating-model descriptions.
-
-What does not belong here:
-
-- implementation instructions,
-- private workflow details,
-- production architecture,
-- confidential process records,
-- tool-specific operational configuration.
-
-## `case-studies/`
-
-The `case-studies/` directory contains public-safe examples of the shared method in different workflow contexts.
+Public-safe examples of the shared method in different workflow contexts.
 
 Current case studies:
 
-- `samael/` — bounded AI-assisted task execution, task contracts, project memory, validation gates, human review.
-- `the-daltons/` — meeting and document analysis, evidence mapping, JSON artifacts, validation gates, reviewable outputs.
-- `noesis/` — telemetry, interpretation layers, source-of-truth boundaries, human-readable reporting, observability gates.
+- `samael/` — bounded AI-assisted task execution.
+- `the-daltons/` — meeting and document analysis with evidence mapping.
+- `noesis/` — telemetry, interpretation, source-of-truth boundaries, and observability gates.
 
-What belongs here:
+Each case study should keep a visible public/private boundary note.
 
-- sanitized case-study descriptions,
-- synthetic examples,
-- public-safe patterns,
-- reviewable artifacts,
-- handoff notes,
-- evidence and validation examples.
+### `diagrams/`
 
-What does not belong here:
-
-- real client or employer material,
-- real meeting transcripts,
-- real project documents,
-- real operational logs,
-- private agent instructions,
-- internal task records,
-- credentials, secrets, private URLs, or local paths.
-
-## `diagrams/`
-
-The `diagrams/` directory contains public-safe Mermaid diagrams.
+Public-safe Mermaid diagrams.
 
 The diagrams are high-level governance views, not implementation diagrams.
 
-Current diagram set:
+### `training/`
 
-- `black-signal-lab-map.md`
-- `samael-workflow.md`
-- `the-daltons-workflow.md`
-- `noesis-workflow.md`
-
-What belongs here:
-
-- high-level portfolio maps,
-- workflow diagrams,
-- governance diagrams,
-- public-safe conceptual diagrams.
-
-What does not belong here:
-
-- infrastructure diagrams,
-- production topology,
-- private system dependencies,
-- internal network or deployment details,
-- diagrams containing confidential names, URLs, paths, or system identifiers.
-
-## `training/`
-
-The `training/` directory contains public-safe learning material.
+Public-safe learning material.
 
 Current module:
 
 - `critical-thinking-for-ai-workflows/`
 
-This is a workshop-style portfolio module, not an accredited course, certification, official training program, or production implementation guide.
+This is a workshop-style portfolio module, not an accredited course, certification, or official training program.
 
-What belongs here:
+### `reviews/`
 
-- public-safe workshop outlines,
-- participant exercises,
-- answer keys,
-- synthetic examples,
-- review checklists,
-- learning material that reinforces the repository's core principles.
-
-What does not belong here:
-
-- official employer training material,
-- accredited course claims,
-- confidential examples,
-- real project exercises,
-- private operational procedures.
-
-## `reviews/`
-
-The `reviews/` directory contains public-baseline review material.
-
-Current review:
-
-- `public-baseline-outsider-review-v0-1.md`
+Public-baseline review material.
 
 Reviews are used to check clarity, navigation, public safety, overclaiming risk, and baseline coherence.
-
-What belongs here:
-
-- public-safe quality reviews,
-- baseline checks,
-- navigation reviews,
-- public-safety checks,
-- scope-drift observations.
-
-What does not belong here:
-
-- private review notes,
-- internal decision logs,
-- confidential critique,
-- unpublished employer or client review material.
 
 ## Public/Private Boundary
 
@@ -322,33 +215,21 @@ It may include:
 - conceptual frameworks,
 - reviewable artifact patterns,
 - governance and operating-model descriptions,
-- high-level diagrams.
+- high-level diagrams,
+- public-facing planning artifacts that improve navigation or maintenance.
 
-It must not include:
-
-- personal data,
-- company confidential data,
-- real meeting transcripts,
-- real project documents,
-- real task logs,
-- real runtime logs,
-- internal URLs,
-- private paths,
-- credentials, tokens, or secrets,
-- production configuration,
-- private infrastructure details,
-- private account names,
-- copied internal project files.
+It must not include private project material, confidential organizational content, real operational records, production configuration, or sensitive account or infrastructure details.
 
 The public repository shows the method, not the private machinery.
 
 ## What Belongs in This Repository
 
-Add material only when it strengthens at least one of the existing public paths:
+Add material only when it strengthens at least one of these public paths:
 
 - lab identity and boundaries,
 - public positioning,
 - repository navigation,
+- README planning and maintenance,
 - method principles,
 - artifact lifecycle,
 - review doctrine,
@@ -376,8 +257,6 @@ Do not add material that makes the repository look like:
 - a private project dump,
 - a broad knowledge base without a clear reader path.
 
-Do not add new categories unless they are necessary for navigation, review, or public-safe explanation.
-
 ## Navigation Paths by Reader Need
 
 ### Fast overview
@@ -402,42 +281,34 @@ Do not add new categories unless they are necessary for navigation, review, or p
 5. `GOVERNANCE_VOCABULARY.md`
 6. `EXAMPLE_CATALOG.md`
 7. `frameworks/black-signal-governance-model.md`
-8. `case-studies/samael/README.md`
-9. `case-studies/the-daltons/README.md`
-10. `case-studies/noesis/README.md`
 
 ### Concrete examples
 
 1. `EXAMPLE_CATALOG.md`
-2. `case-studies/the-daltons/walkthrough.md`
-3. `case-studies/samael/examples/`
-4. `case-studies/the-daltons/examples/`
-5. `case-studies/noesis/examples/`
+2. `case-studies/samael/`
+3. `case-studies/the-daltons/`
+4. `case-studies/noesis/`
 
-### Learning and workshop use
+### README maintenance
 
-1. `training/critical-thinking-for-ai-workflows/README.md`
-2. `training/critical-thinking-for-ai-workflows/facilitator-outline.md`
-3. `training/critical-thinking-for-ai-workflows/participant-workbook.md`
-4. `training/critical-thinking-for-ai-workflows/examples/`
+1. `README_PLAN.md`
+2. `REPOSITORY_MAP.md`
+3. `STATUS.md`
 
 ### Baseline review and quality control
 
 1. `STATUS.md`
-2. `reviews/public-baseline-outsider-review-v0-1.md`
-3. `REPOSITORY_MAP.md`
+2. `GITHUB_HYGIENE_REVIEW.md`
+3. `reviews/public-baseline-outsider-review-v0-1.md`
+4. `REPOSITORY_MAP.md`
 
 ## Missing or Deferred Documents
 
-The repository now has a map, charter, positioning document, method principles, artifact lifecycle, review doctrine, human decision gate, governance vocabulary, example catalog, portfolio brief, status file, governance model, diagrams, case studies, training module, and review material.
+Known follow-up candidates:
 
-Potential future documents should be added only if they solve a concrete navigation or boundary problem.
-
-Possible future candidates:
-
-- `CONTRIBUTION_BOUNDARY.md` — only if external contribution or reuse becomes relevant.
-- `PUBLICATION_BOUNDARY.md` — only if publication workflow needs its own explicit gate.
-- compact top-level index — only if the repository grows beyond the current navigation model.
+- license decision artifact or task,
+- publication boundary artifact if publication workflow needs its own explicit gate,
+- dedicated sensitive-content review before wider external promotion.
 
 Do not add these by default.
 
