@@ -28,6 +28,8 @@ For the shared governance framework connecting the case studies, see the [Black 
 
 For a public training module on critical thinking in AI-assisted workflows, see [From Evidence to Decision](training/critical-thinking-for-ai-workflows/).
 
+For license posture and reuse boundaries, see [License Decision](LICENSE_DECISION.md).
+
 For the current public baseline, see [STATUS.md](STATUS.md).
 
 ## Recommended Reading Path
@@ -96,6 +98,14 @@ It does not contain:
 - credentials, tokens, or secrets
 - production configuration
 - copied internal project files
+
+## License and Reuse Status
+
+No public reuse license has been selected yet.
+
+This repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
+
+See [License Decision](LICENSE_DECISION.md).
 
 ## Status
 
