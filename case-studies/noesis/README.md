@@ -70,6 +70,7 @@ NOESIS demonstrates IT transformation, governance, operating-model, and AI-reada
 
 ## Further Reading
 
+- [NOESIS public boundary](public-boundary.md)
 - [NOESIS source-of-truth pattern](source-of-truth-pattern.md)
 
 ## Data Boundary
