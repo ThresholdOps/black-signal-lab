@@ -32,6 +32,8 @@ For license posture and reuse boundaries, see [License Decision](LICENSE_DECISIO
 
 For sensitive-content and publication-boundary review, see [Sensitive Content Review](SENSITIVE_CONTENT_REVIEW.md) and [Publication Boundary](PUBLICATION_BOUNDARY.md).
 
+For the baseline closure decision, see [Baseline Closure Review](BASELINE_CLOSURE_REVIEW.md).
+
 For the current public baseline, see [STATUS.md](STATUS.md).
 
 ## Recommended Reading Path
@@ -111,4 +113,4 @@ See [License Decision](LICENSE_DECISION.md).
 
 ## Status
 
-Public portfolio workspace for human review. Current baseline: [Public portfolio baseline v0.1](STATUS.md).
+Public portfolio baseline v0.1 is closed and frozen. See [STATUS.md](STATUS.md) and [Baseline Closure Review](BASELINE_CLOSURE_REVIEW.md).
