@@ -26,6 +26,7 @@ It shows public-safe patterns for making AI-assisted work reviewable, traceable,
 - License decision
 - Baseline closure review
 - Portfolio activation record
+- Content quality review
 - Portfolio brief
 - Black Signal Governance Model
 - Three case studies: SAMAEL, The Daltons, and NOESIS
@@ -78,6 +79,19 @@ Activation does not reopen the v0.1 baseline and does not create product, open-s
 
 See `PORTFOLIO_ACTIVATION.md`.
 
+## Content Quality Status
+
+```text
+Content quality review: COMPLETE
+Editorial improvement: RECOMMENDED
+```
+
+The review found the repository coherent and precise, but too abstract, repetitive, and self-protective for maximum portfolio impact.
+
+The next approved direction is editorial improvement of existing content, beginning with the README and Portfolio Brief, followed by stronger case-study proof and reduced duplication.
+
+See `CONTENT_QUALITY_REVIEW.md`.
+
 ## Current Development Stance
 
 Feature expansion under BSL-01 is complete.
@@ -86,6 +100,7 @@ BSL-02 portfolio activation is active.
 
 Future work should be limited to:
 
+- editorial improvement of existing portfolio content,
 - portfolio-use maintenance,
 - broken-link or navigation maintenance,
 - wording consistency,
@@ -105,6 +120,7 @@ No new baseline document should be added without a new approved task and explici
 - `LICENSE_DECISION.md` — decision to defer adding a license file.
 - `BASELINE_CLOSURE_REVIEW.md` — closure decision for public portfolio baseline v0.1.
 - `PORTFOLIO_ACTIVATION.md` — activation decision and approved portfolio framing.
+- `CONTENT_QUALITY_REVIEW.md` — first-reader, duplication, abstraction, voice, evidence, and editorial-priority review.
 
 ## License and Reuse Status
 
