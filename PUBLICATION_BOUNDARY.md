@@ -11,12 +11,14 @@ This document does not publish anything by itself.
 ## Current Publication Posture
 
 ```text
-Status: CONTROLLED PUBLIC PORTFOLIO VISIBILITY
+Status: ACTIVE CONTROLLED PUBLIC PORTFOLIO VISIBILITY
 ```
 
-The repository may be visible and referenced as a public portfolio and method-inspection repository.
+The repository is activated for deliberate use as a public portfolio and method-inspection repository.
 
-It should not yet be promoted as:
+It may be linked and discussed in controlled professional contexts when the framing in `PORTFOLIO_ACTIVATION.md` and the caveats in this document are preserved.
+
+It should not be promoted as:
 
 - an open-source framework,
 - a production system,
@@ -33,12 +35,12 @@ The repository may be referenced in controlled professional contexts such as:
 - hiring or role-fit discussion,
 - AI governance discussion,
 - process governance discussion,
-- controlled LinkedIn profile or post reference,
+- controlled professional profile or post reference,
 - private professional conversation,
 - selected methodology discussion,
 - internal personal knowledge showcase.
 
-These surfaces are acceptable only when the repository is described with the caveats in this document.
+These surfaces are active and acceptable when the repository is described with the required caveats.
 
 ## Not Yet Approved Surfaces
 
@@ -61,8 +63,9 @@ These may become possible later, but they require separate decisions.
 Any external reference should preserve these points:
 
 ```text
-Black Signal Lab is a public portfolio and method-inspection repository.
+Black Signal Lab is an active public portfolio and method-inspection repository.
 It demonstrates controlled AI-assisted work through public-safe documents, case studies, and examples.
+Its v0.1 baseline is closed and frozen.
 It is not a production system, open-source toolkit, official training program, or autonomous decision platform.
 No public reuse license has been selected yet.
 AI output is treated as review material, not truth or decision authority.
@@ -74,11 +77,13 @@ Do not link the repository without enough surrounding context for readers to und
 
 Allowed claims:
 
+- Black Signal Lab is active as a public portfolio.
 - Black Signal Lab demonstrates controlled AI-assisted work.
 - The repository uses public-safe method documents and sanitized examples.
 - The method emphasizes artifacts, evidence, validation gates, source-of-truth boundaries, human review, and human decision ownership.
 - The case studies show different surfaces of the same method.
-- The repository is a portfolio baseline, not a production product.
+- The v0.1 baseline is closed and frozen.
+- The repository is portfolio evidence, not a production product.
 
 ## Claim Boundary
 
@@ -101,16 +106,16 @@ Do not imply that the public repository grants reuse rights beyond the current l
 
 ## Link Context
 
-When linking the repository, use wording similar to:
+Preferred wording:
 
 ```text
-This is my public portfolio repository for controlled AI-assisted work: artifacts, review gates, evidence mapping, source-of-truth boundaries, and human decision ownership. It uses public-safe examples and does not contain private project material or a public reuse license.
+Black Signal Lab is my active public portfolio for controlled AI-assisted work: artifacts, review gates, evidence mapping, source-of-truth boundaries, and human decision ownership. It uses public-safe examples, its v0.1 baseline is closed and frozen, and no public reuse license has been selected.
 ```
 
 Shorter version:
 
 ```text
-Public portfolio repo for controlled AI-assisted work. Public-safe examples only; no production or reuse-license claim.
+Active public portfolio for controlled AI-assisted work. Closed v0.1 baseline; public-safe examples; no production or reuse-license claim.
 ```
 
 ## Publication Checklist
@@ -118,7 +123,8 @@ Public portfolio repo for controlled AI-assisted work. Public-safe examples only
 Before linking or promoting the repository externally, check:
 
 - Is the audience appropriate?
-- Is the repository described as portfolio/method-inspection material?
+- Is the repository described as active portfolio/method-inspection material?
+- Is the closed and frozen v0.1 baseline stated accurately?
 - Are production claims avoided?
 - Are open-source or reuse claims avoided?
 - Is the no-license status respected?
@@ -132,7 +138,14 @@ If the answer is unclear, do not publish yet.
 
 ## Publication Review Gate
 
-A publication review should happen before:
+A lightweight review is sufficient for:
+
+- a portfolio link,
+- a role-fit or hiring discussion,
+- a short controlled public reference,
+- a professional profile reference.
+
+A stronger review is required before:
 
 - broad public promotion,
 - formal post series,
@@ -143,26 +156,26 @@ A publication review should happen before:
 - license change,
 - public release label.
 
-A lightweight review is sufficient for small portfolio references.
-
-A stronger review is required for anything that sounds like product, framework, training, or public methodology launch.
+Anything that sounds like a product, framework, training offer, or public methodology launch requires a separate decision.
 
 ## Relationship to Other Documents
 
 Use these documents together:
 
-- `STATUS.md` — current baseline and stance.
+- `STATUS.md` — current baseline and active portfolio state.
+- `PORTFOLIO_ACTIVATION.md` — activation decision, approved framing, and public launch note.
 - `LICENSE_DECISION.md` — license and reuse boundary.
 - `SENSITIVE_CONTENT_REVIEW.md` — sensitive-content review result and limitations.
 - `GITHUB_HYGIENE_REVIEW.md` — repository hygiene review and cleanup history.
+- `BASELINE_CLOSURE_REVIEW.md` — closure decision for v0.1.
 - `README_PLAN.md` — README maintenance guidance.
 - `REPOSITORY_MAP.md` — navigation and structure.
 
 ## Current Decision
 
 ```text
-Publication boundary result: controlled public portfolio visibility is allowed.
-Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved yet.
+Publication boundary result: controlled public portfolio use is active.
+Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved.
 ```
 
 ## Next Decision Triggers
@@ -180,13 +193,13 @@ Revisit this boundary if any of the following becomes true:
 
 ## Non-Actions
 
-This task does not:
+This activation does not:
 
-- publish the repository externally,
 - add a license,
 - invite contributions,
 - create a product claim,
 - create a training claim,
 - approve broad reuse,
 - approve commercial packaging,
-- perform legal review.
+- perform legal review,
+- reopen the frozen v0.1 baseline.
