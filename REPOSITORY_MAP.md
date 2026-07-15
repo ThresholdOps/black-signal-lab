@@ -4,7 +4,7 @@
 
 This document maps the public structure of the Black Signal Lab repository.
 
-It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private boundary sits.
+It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private, license/reuse, and publication boundaries sit.
 
 The map is a navigation and governance artifact. It is not a technical architecture document, implementation reference, or product roadmap.
 
@@ -21,28 +21,32 @@ The repository does not contain private implementation details, production confi
 For a first-time reader, use this path:
 
 1. `README.md` — main entry point and reading path.
-2. `LAB_CHARTER.md` — lab purpose, boundaries, human review principle.
-3. `PUBLIC_POSITIONING.md` — public audience, value proposition, project positioning.
-4. `REPOSITORY_MAP.md` — repository structure, navigation paths, and boundary notes.
-5. `METHOD_PRINCIPLES.md` — method principles for controlled AI-assisted work.
-6. `ARTIFACT_LIFECYCLE.md` — how inputs become reviewable artifacts.
-7. `REVIEW_MATERIAL_DOCTRINE.md` — why AI output remains review material.
-8. `HUMAN_DECISION_GATE.md` — how review material becomes accepted, rejected, escalated, deferred, or recorded.
-9. `GOVERNANCE_VOCABULARY.md` — core terms used across Black Signal Lab.
+2. `LAB_CHARTER.md` — lab purpose and boundaries.
+3. `PUBLIC_POSITIONING.md` — audience and public value proposition.
+4. `REPOSITORY_MAP.md` — repository structure and navigation.
+5. `METHOD_PRINCIPLES.md` — method principles.
+6. `ARTIFACT_LIFECYCLE.md` — movement from input to review, decision, and storage.
+7. `REVIEW_MATERIAL_DOCTRINE.md` — status of AI output as review material.
+8. `HUMAN_DECISION_GATE.md` — accountable human decision boundary.
+9. `GOVERNANCE_VOCABULARY.md` — core terms.
 10. `EXAMPLE_CATALOG.md` — public-safe examples and method mapping.
-11. `PORTFOLIO_BRIEF.md` — compact portfolio overview.
+11. `PORTFOLIO_BRIEF.md` — compact overview.
 12. `frameworks/black-signal-governance-model.md` — shared governance model.
-13. `case-studies/` — public-safe case studies and examples.
-14. `diagrams/` — visual overview of the portfolio and workflows.
-15. `training/critical-thinking-for-ai-workflows/` — workshop-style learning module.
-16. `reviews/` — public-baseline review material.
-17. `STATUS.md` — current baseline and development stance.
+13. `case-studies/` — SAMAEL, The Daltons, and NOESIS.
+14. `diagrams/` — public-safe visual views.
+15. `training/critical-thinking-for-ai-workflows/` — workshop-style learning material.
+16. `STATUS.md` — current baseline and development stance.
 
-`README_PLAN.md` is a README maintenance planning artifact. It is useful when changing the README, but it is not required for first-time reading.
+Supporting governance and maintenance artifacts:
 
-`GITHUB_HYGIENE_REVIEW.md` is a repository hygiene review artifact. It records review findings and cleanup actions, but it is not part of the core reading path.
+- `README_PLAN.md`
+- `GITHUB_HYGIENE_REVIEW.md`
+- `LICENSE_DECISION.md`
+- `SENSITIVE_CONTENT_REVIEW.md`
+- `PUBLICATION_BOUNDARY.md`
+- `BASELINE_CLOSURE_REVIEW.md`
 
-`LICENSE_DECISION.md` records the current license posture and reuse boundary. It is important for reuse questions, but it is not a method primer.
+These documents support maintenance, review, reuse questions, publication decisions, and baseline closure. They are not required as the first method-reading path.
 
 ## Top-Level Entry Points
 
@@ -50,89 +54,71 @@ For a first-time reader, use this path:
 
 The main public entry point.
 
-It explains what Black Signal Lab is, links to the core documents, summarizes the portfolio map, and states the privacy/data boundary.
-
-### `README_PLAN.md`
-
-The README planning artifact.
-
-It defines the intended README structure, short public introduction, examples section, non-goals section, privacy wording, and README maintenance rules.
-
-Use this document when changing the README. It is not a substitute for the README itself.
-
-### `LICENSE_DECISION.md`
-
-The license decision artifact.
-
-It records that no public reuse license has been selected yet, explains no-license implications, compares high-level license options, and defines the current reuse boundary.
-
-Use this document when answering reuse, contribution, or license-status questions.
+It explains what Black Signal Lab is, links to the core documents, summarizes the case studies, and states the privacy and license/reuse boundaries.
 
 ### `LAB_CHARTER.md`
 
-The lab charter.
-
-It defines the purpose of Black Signal Lab, what it is and is not, the target audience, the human review principle, artifact principle, boundary principle, and public-safe scope.
+Defines the purpose of Black Signal Lab, what it is and is not, the target audience, the human review principle, artifact principle, boundary principle, and public-safe scope.
 
 ### `PUBLIC_POSITIONING.md`
 
-The public positioning document.
-
-It explains audience, value proposition, project positioning, tone, non-goals, and public-safety boundary.
+Defines audience, value proposition, project positioning, tone, non-goals, and public-safety boundary.
 
 ### `METHOD_PRINCIPLES.md`
 
-The method principles document.
-
-It defines Artifact, Review, Evidence, Human Decision, Boundary, and Anti-Overclaim principles.
+Defines Artifact, Review, Evidence, Human Decision, Boundary, and Anti-Overclaim principles.
 
 ### `ARTIFACT_LIFECYCLE.md`
 
-The artifact lifecycle document.
-
-It describes how messy inputs become reviewable artifacts and move through validation, review, decision, storage, and improvement.
+Describes how inputs become reviewable artifacts and move through validation, human review, decision, storage, and improvement.
 
 ### `REVIEW_MATERIAL_DOCTRINE.md`
 
-The review material doctrine.
-
-It defines the status of AI output, reviewer responsibility, human decision ownership, and what must not be automated.
+Defines the status of AI output, reviewer responsibility, human decision ownership, and what must not be automated.
 
 ### `HUMAN_DECISION_GATE.md`
 
-The human decision gate.
-
-It defines what AI may prepare, what AI must not decide, who reviews, who accepts responsibility, how decisions are recorded, and when escalation is required.
+Defines what AI may prepare, what AI must not decide, who reviews, who accepts responsibility, how decisions are recorded, and when escalation is required.
 
 ### `GOVERNANCE_VOCABULARY.md`
 
-The governance vocabulary.
-
-It defines the core terms used across Black Signal Lab: artifact, review material, evidence, decision, interpretation, source of truth, validation, human gate, and operating model.
+Defines artifact, review material, evidence, decision, interpretation, source of truth, validation, human gate, and operating model.
 
 ### `EXAMPLE_CATALOG.md`
 
-The example catalog.
-
-It lists the public-safe examples used by Black Signal Lab and maps SAMAEL, The Daltons, and NOESIS to the method principles, artifact lifecycle, and public/private boundary.
-
-### `GITHUB_HYGIENE_REVIEW.md`
-
-The GitHub hygiene review.
-
-It records the repository hygiene review, including README clarity, repository structure, public/private boundary, license status, placeholder review, sensitive-content limitation, and cleanup action list.
+Maps SAMAEL, The Daltons, and NOESIS to the method principles, lifecycle, and public/private boundaries.
 
 ### `PORTFOLIO_BRIEF.md`
 
-A short portfolio overview.
+Provides a short portfolio overview and introduces the three case studies.
 
-It summarizes what the repository demonstrates and introduces the three case studies.
+### `README_PLAN.md`
+
+Defines the intended README structure, public introduction, examples section, non-goals, privacy wording, and maintenance rules.
+
+### `GITHUB_HYGIENE_REVIEW.md`
+
+Records README clarity, repository structure, public/private boundary, license status, placeholder review, and cleanup actions.
+
+### `LICENSE_DECISION.md`
+
+Records that no public reuse license has been selected, explains the current reuse boundary, and identifies future decision triggers.
+
+### `SENSITIVE_CONTENT_REVIEW.md`
+
+Records the public repository sensitive-content review and its limitations.
+
+### `PUBLICATION_BOUNDARY.md`
+
+Defines allowed publication surfaces, required caveats, claim boundaries, link context, and publication review gates.
+
+### `BASELINE_CLOSURE_REVIEW.md`
+
+Records the cross-document closure review and the decision to close and freeze public portfolio baseline v0.1.
 
 ### `STATUS.md`
 
-The current public baseline status.
-
-It states the repository baseline, current contents, what the repository is and is not, known hygiene notes, license/reuse status, and current development stance.
+States the current contents, boundaries, publication posture, license/reuse posture, and development stance.
 
 ## Folder Map
 
@@ -140,7 +126,6 @@ It states the repository baseline, current contents, what the repository is and 
 /
 ├── README.md
 ├── README_PLAN.md
-├── LICENSE_DECISION.md
 ├── LAB_CHARTER.md
 ├── PUBLIC_POSITIONING.md
 ├── REPOSITORY_MAP.md
@@ -150,8 +135,12 @@ It states the repository baseline, current contents, what the repository is and 
 ├── HUMAN_DECISION_GATE.md
 ├── GOVERNANCE_VOCABULARY.md
 ├── EXAMPLE_CATALOG.md
-├── GITHUB_HYGIENE_REVIEW.md
 ├── PORTFOLIO_BRIEF.md
+├── GITHUB_HYGIENE_REVIEW.md
+├── LICENSE_DECISION.md
+├── SENSITIVE_CONTENT_REVIEW.md
+├── PUBLICATION_BOUNDARY.md
+├── BASELINE_CLOSURE_REVIEW.md
 ├── STATUS.md
 │
 ├── frameworks/
@@ -173,51 +162,33 @@ This is a public-facing map, not a full file inventory.
 
 ### `frameworks/`
 
-Shared governance models and conceptual patterns.
-
-Current primary artifact:
-
-- `black-signal-governance-model.md`
+Shared governance models and cross-case conceptual patterns.
 
 ### `case-studies/`
 
-Public-safe examples of the shared method in different workflow contexts.
-
-Current case studies:
+Public-safe examples of the shared method:
 
 - `samael/` — bounded AI-assisted task execution.
 - `the-daltons/` — meeting and document analysis with evidence mapping.
 - `noesis/` — telemetry, interpretation, source-of-truth boundaries, and observability gates.
 
-Each case study should keep a visible public/private boundary note.
+Each case study has a visible public-boundary document.
 
 ### `diagrams/`
 
-Public-safe Mermaid diagrams.
-
-The diagrams are high-level governance views, not implementation diagrams.
+Public-safe Mermaid diagrams. These are governance views, not implementation or infrastructure diagrams.
 
 ### `training/`
 
-Public-safe learning material.
-
-Current module:
-
-- `critical-thinking-for-ai-workflows/`
-
-This is a workshop-style portfolio module, not an accredited course, certification, or official training program.
+Public-safe learning material. The current module is workshop-style portfolio material, not an accredited course or official training program.
 
 ### `reviews/`
 
-Public-baseline review material.
-
-Reviews are used to check clarity, navigation, public safety, overclaiming risk, and baseline coherence.
+Public-baseline quality reviews used to check clarity, navigation, public safety, overclaiming risk, and coherence.
 
 ## Public/Private Boundary
 
-Black Signal Lab is a public repository.
-
-It may include:
+The repository may include:
 
 - public methodology,
 - synthetic examples,
@@ -227,55 +198,39 @@ It may include:
 - reviewable artifact patterns,
 - governance and operating-model descriptions,
 - high-level diagrams,
-- public-facing planning artifacts that improve navigation or maintenance.
+- public-facing review and maintenance artifacts.
 
-It must not include private project material, confidential organizational content, real operational records, production configuration, or sensitive account or infrastructure details.
+It must not include private project material, confidential organizational content, real operational records, production configuration, or sensitive account and infrastructure details.
 
 The public repository shows the method, not the private machinery.
 
 ## License / Reuse Boundary
 
-No public reuse license has been selected yet.
+No public reuse license has been selected.
 
-This repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
+The repository is public for portfolio review and method inspection. Do not assume permission to copy, modify, redistribute, package, or commercially reuse its contents unless a license or written permission explicitly grants that right.
 
-Use `LICENSE_DECISION.md` for license-status questions.
+Use `LICENSE_DECISION.md` for reuse questions.
 
-## What Belongs in This Repository
+## Publication Boundary
 
-Add material only when it strengthens at least one of these public paths:
+Controlled public portfolio visibility is allowed.
 
-- lab identity and boundaries,
-- public positioning,
-- repository navigation,
-- README planning and maintenance,
-- license/reuse status clarity,
-- method principles,
-- artifact lifecycle,
-- review doctrine,
-- human decision gate,
-- governance vocabulary,
-- example catalog,
-- governance model,
-- case-study clarity,
-- visual navigation,
-- public-safe training,
-- baseline review,
-- public/private boundary discipline.
+Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved.
 
-Good additions are small, reviewable, public-safe, and connected to an existing path.
+Use `SENSITIVE_CONTENT_REVIEW.md` and `PUBLICATION_BOUNDARY.md` before wider external promotion.
 
-## What Does Not Belong in This Repository
+## Baseline Closure Boundary
 
-Do not add material that makes the repository look like:
+Public portfolio baseline v0.1 is closed and frozen after the closure review and status update.
 
-- a production system,
-- a software implementation reference,
-- a SaaS product,
-- a game-development backlog,
-- an uncontrolled agent platform,
-- a private project dump,
-- a broad knowledge base without a clear reader path.
+Future additions should be treated as:
+
+- small baseline maintenance,
+- a specifically approved public-safe improvement,
+- or work for a new versioned baseline.
+
+Use `BASELINE_CLOSURE_REVIEW.md` for the closure decision.
 
 ## Navigation Paths by Reader Need
 
@@ -285,14 +240,7 @@ Do not add material that makes the repository look like:
 2. `PORTFOLIO_BRIEF.md`
 3. `diagrams/README.md`
 
-### Purpose and boundaries
-
-1. `LAB_CHARTER.md`
-2. `PUBLIC_POSITIONING.md`
-3. `REPOSITORY_MAP.md`
-4. `STATUS.md`
-
-### Method and governance model
+### Method and governance
 
 1. `METHOD_PRINCIPLES.md`
 2. `ARTIFACT_LIFECYCLE.md`
@@ -309,45 +257,34 @@ Do not add material that makes the repository look like:
 3. `case-studies/the-daltons/`
 4. `case-studies/noesis/`
 
-### README maintenance
-
-1. `README_PLAN.md`
-2. `REPOSITORY_MAP.md`
-3. `STATUS.md`
-
-### License / reuse questions
+### License and publication questions
 
 1. `LICENSE_DECISION.md`
-2. `README.md`
-3. `STATUS.md`
+2. `SENSITIVE_CONTENT_REVIEW.md`
+3. `PUBLICATION_BOUNDARY.md`
+4. `STATUS.md`
 
-### Baseline review and quality control
+### Baseline maintenance and closure
 
-1. `STATUS.md`
+1. `README_PLAN.md`
 2. `GITHUB_HYGIENE_REVIEW.md`
-3. `reviews/public-baseline-outsider-review-v0-1.md`
-4. `REPOSITORY_MAP.md`
+3. `BASELINE_CLOSURE_REVIEW.md`
+4. `STATUS.md`
+5. `REPOSITORY_MAP.md`
 
-## Missing or Deferred Documents
+## Deferred Decisions
 
-Known follow-up candidates:
+The following remain deferred unless explicitly approved:
 
-- publication boundary artifact if publication workflow needs its own explicit gate,
-- dedicated sensitive-content review before wider external promotion,
-- actual `LICENSE` file only if a later license decision explicitly approves one.
-
-Do not add these by default.
+- an actual `LICENSE` file,
+- external contribution workflow,
+- broad public release or campaign,
+- commercial packaging,
+- official training or certification framing,
+- public portfolio baseline v0.2.
 
 ## Maintenance Principle
 
 The repository should remain small enough to inspect and structured enough to trust.
 
-When adding or changing content, ask:
-
-- Does this strengthen an existing navigation path?
-- Is it public-safe?
-- Does it avoid production-readiness claims?
-- Does it preserve the distinction between reviewable signal and final authority?
-- Does it make the repository easier to understand, not merely larger?
-
-If the answer is unclear, do not add the material yet.
+After v0.1 closure, do not add a new baseline document without a new approved task and explicit reason.
