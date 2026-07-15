@@ -4,15 +4,17 @@
 
 This document maps the public structure of the Black Signal Lab repository.
 
-It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private, license/reuse, and publication boundaries sit.
+It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private, license/reuse, publication, closure, and portfolio-activation boundaries sit.
 
 The map is a navigation and governance artifact. It is not a technical architecture document, implementation reference, or product roadmap.
 
 ## Repository Role
 
-Black Signal Lab is a public methodology and portfolio repository for controlled AI-assisted work.
+Black Signal Lab is a public methodology and active portfolio repository for controlled AI-assisted work.
 
 The repository demonstrates how AI-assisted workflows can be structured around artifacts, validation gates, source-of-truth boundaries, public-safe examples, human review, and human decision gates.
+
+The v0.1 method baseline is closed and frozen. Portfolio use is active under BSL-02.
 
 The repository does not contain private implementation details, production configuration, real operational logs, real project documents, or confidential material.
 
@@ -20,7 +22,7 @@ The repository does not contain private implementation details, production confi
 
 For a first-time reader, use this path:
 
-1. `README.md` — main entry point and reading path.
+1. `README.md` — main entry point and active portfolio status.
 2. `LAB_CHARTER.md` — lab purpose and boundaries.
 3. `PUBLIC_POSITIONING.md` — audience and public value proposition.
 4. `REPOSITORY_MAP.md` — repository structure and navigation.
@@ -35,9 +37,9 @@ For a first-time reader, use this path:
 13. `case-studies/` — SAMAEL, The Daltons, and NOESIS.
 14. `diagrams/` — public-safe visual views.
 15. `training/critical-thinking-for-ai-workflows/` — workshop-style learning material.
-16. `STATUS.md` — current baseline and development stance.
+16. `STATUS.md` — current baseline and active portfolio state.
 
-Supporting governance and maintenance artifacts:
+Supporting governance, maintenance, and activation artifacts:
 
 - `README_PLAN.md`
 - `GITHUB_HYGIENE_REVIEW.md`
@@ -45,8 +47,9 @@ Supporting governance and maintenance artifacts:
 - `SENSITIVE_CONTENT_REVIEW.md`
 - `PUBLICATION_BOUNDARY.md`
 - `BASELINE_CLOSURE_REVIEW.md`
+- `PORTFOLIO_ACTIVATION.md`
 
-These documents support maintenance, review, reuse questions, publication decisions, and baseline closure. They are not required as the first method-reading path.
+These documents support maintenance, review, reuse questions, publication decisions, baseline closure, and active portfolio use. They are not required as the first method-reading path.
 
 ## Top-Level Entry Points
 
@@ -54,7 +57,7 @@ These documents support maintenance, review, reuse questions, publication decisi
 
 The main public entry point.
 
-It explains what Black Signal Lab is, links to the core documents, summarizes the case studies, and states the privacy and license/reuse boundaries.
+It explains what Black Signal Lab is, links to the core documents, summarizes the case studies, and states the active portfolio, privacy, publication, and license/reuse boundaries.
 
 ### `LAB_CHARTER.md`
 
@@ -110,15 +113,21 @@ Records the public repository sensitive-content review and its limitations.
 
 ### `PUBLICATION_BOUNDARY.md`
 
-Defines allowed publication surfaces, required caveats, claim boundaries, link context, and publication review gates.
+Defines active controlled portfolio publication surfaces, required caveats, claim boundaries, link context, and publication review gates.
 
 ### `BASELINE_CLOSURE_REVIEW.md`
 
 Records the cross-document closure review and the decision to close and freeze public portfolio baseline v0.1.
 
+### `PORTFOLIO_ACTIVATION.md`
+
+Records the BSL-02 decision to activate the closed v0.1 baseline as a controlled public portfolio.
+
+It contains approved portfolio framing, a reusable public launch note, suitable uses, remaining boundaries, and activation review gates.
+
 ### `STATUS.md`
 
-States the current contents, boundaries, publication posture, license/reuse posture, and development stance.
+States the current contents, frozen baseline state, active portfolio state, publication posture, license/reuse posture, and development stance.
 
 ## Folder Map
 
@@ -141,6 +150,7 @@ States the current contents, boundaries, publication posture, license/reuse post
 ├── SENSITIVE_CONTENT_REVIEW.md
 ├── PUBLICATION_BOUNDARY.md
 ├── BASELINE_CLOSURE_REVIEW.md
+├── PORTFOLIO_ACTIVATION.md
 ├── STATUS.md
 │
 ├── frameworks/
@@ -198,7 +208,7 @@ The repository may include:
 - reviewable artifact patterns,
 - governance and operating-model descriptions,
 - high-level diagrams,
-- public-facing review and maintenance artifacts.
+- public-facing review, maintenance, and activation artifacts.
 
 It must not include private project material, confidential organizational content, real operational records, production configuration, or sensitive account and infrastructure details.
 
@@ -214,23 +224,39 @@ Use `LICENSE_DECISION.md` for reuse questions.
 
 ## Publication Boundary
 
-Controlled public portfolio visibility is allowed.
+Active controlled public portfolio visibility is allowed.
+
+Professional portfolio links and controlled public references are approved when `PORTFOLIO_ACTIVATION.md` and `PUBLICATION_BOUNDARY.md` framing is preserved.
 
 Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved.
 
-Use `SENSITIVE_CONTENT_REVIEW.md` and `PUBLICATION_BOUNDARY.md` before wider external promotion.
-
 ## Baseline Closure Boundary
 
-Public portfolio baseline v0.1 is closed and frozen after the closure review and status update.
+Public portfolio baseline v0.1 is closed and frozen.
 
-Future additions should be treated as:
+Future baseline additions should be treated as:
 
 - small baseline maintenance,
 - a specifically approved public-safe improvement,
 - or work for a new versioned baseline.
 
 Use `BASELINE_CLOSURE_REVIEW.md` for the closure decision.
+
+## Portfolio Activation Boundary
+
+The closed v0.1 baseline is active as portfolio evidence.
+
+Approved use includes:
+
+- professional portfolio review,
+- role-fit and hiring discussion,
+- AI governance and process-governance discussion,
+- controlled professional profile or post references,
+- private professional conversations.
+
+Activation does not approve product, training, open-source, contribution, commercial packaging, or autonomous-system claims.
+
+Use `PORTFOLIO_ACTIVATION.md` for approved framing and launch wording.
 
 ## Navigation Paths by Reader Need
 
@@ -257,12 +283,20 @@ Use `BASELINE_CLOSURE_REVIEW.md` for the closure decision.
 3. `case-studies/the-daltons/`
 4. `case-studies/noesis/`
 
+### Portfolio use
+
+1. `PORTFOLIO_ACTIVATION.md`
+2. `PUBLICATION_BOUNDARY.md`
+3. `STATUS.md`
+4. `README.md`
+
 ### License and publication questions
 
 1. `LICENSE_DECISION.md`
 2. `SENSITIVE_CONTENT_REVIEW.md`
 3. `PUBLICATION_BOUNDARY.md`
-4. `STATUS.md`
+4. `PORTFOLIO_ACTIVATION.md`
+5. `STATUS.md`
 
 ### Baseline maintenance and closure
 
@@ -288,3 +322,5 @@ The following remain deferred unless explicitly approved:
 The repository should remain small enough to inspect and structured enough to trust.
 
 After v0.1 closure, do not add a new baseline document without a new approved task and explicit reason.
+
+BSL-02 portfolio-use artifacts may be added only when they support approved activation, maintenance, or publication decisions without reopening the frozen baseline.
