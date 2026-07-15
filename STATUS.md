@@ -84,18 +84,19 @@ See `PORTFOLIO_ACTIVATION.md`.
 
 ```text
 Content quality review: COMPLETE
-Editorial improvement: RECOMMENDED
+Editorial improvement: DEFERRED
 ```
 
 The review found the repository coherent and precise, but too abstract, repetitive, and self-protective for maximum portfolio impact.
 
 `CONTENT_QUALITY_REVIEW.md` records the editorial diagnosis and proposed work. Its task numbering was provisional and is superseded by the authoritative queue below.
 
-## Active BSL-02 Work Queue
+## BSL-02 Work Queue
 
 ```text
 Queue authority: STATUS.md
 Operational mirror: ClickUp list Black Signal Lab
+Current execution state: PAUSED BY OWNER DECISION
 ```
 
 Review and assessment documents may recommend work, but they do not allocate authoritative BSL task numbers. Numbering and execution order are assigned only in this section and mirrored in ClickUp.
@@ -107,32 +108,35 @@ Review and assessment documents may recommend work, but they do not allocate aut
    - Replaced the external-readiness conclusion with readiness for independent external-reader validation.
    - Authoritative file: `reviews/internal-public-baseline-self-review-v0-1.md`.
 
-2. **BSL-02-0004 — External reader validation** — `READY`
-   - Run a real timed reader test with an independent participant.
-   - Record observations and participant wording separately from internal interpretation.
-   - Do not treat the internal self-review as evidence of reader comprehension.
+2. **BSL-02-0004 — External reader validation** — `DEFERRED — NO TARGET DATE`
+   - The study is intentionally paused by owner decision.
+   - The current professional network is too small to recruit a suitable independent participant without forcing the exercise.
+   - Do not schedule, monitor, or pursue the test until it is explicitly reactivated.
+   - The portfolio remains active without external-reader validation.
 
-3. **BSL-02-0005 — Editorial improvement pass** — `BLOCKED BY BSL-02-0004`
-   - Use `CONTENT_QUALITY_REVIEW.md` together with external-reader evidence.
-   - Begin with README and Portfolio Brief, then improve case-study proof and reduce duplication.
+3. **BSL-02-0005 — Editorial improvement pass** — `DEFERRED WITH BSL-02-0004`
+   - Do not start automatically.
+   - Do not treat internal reviews as a substitute for the deferred external-reader study.
+   - The task may be reactivated later by explicit owner decision, either with external-reader evidence or under a newly approved editorial scope.
 
-Queue rationale:
+Pause rationale:
 
 ```text
-integrity correction -> external evidence -> editorial intervention
+Do not manufacture external validation to satisfy an internal schedule.
+Wait until a suitable participant and natural review context exist.
 ```
 
-This ordering prevents an internal assessment from being mistaken for external validation and prevents editorial changes from being based only on internal reviews.
+This pause does not weaken or deactivate the portfolio. It records that the next validation and editorial cycle requires better timing and a broader network.
 
 ## Current Development Stance
 
 Feature expansion under BSL-01 is complete.
 
-BSL-02 portfolio activation is active.
+BSL-02 portfolio activation remains active.
 
-Future work should be limited to:
+There is currently no active BSL-02 execution task. Future work should be limited to:
 
-- the authoritative BSL-02 queue above,
+- explicit reactivation of a deferred task,
 - portfolio-use maintenance,
 - broken-link or navigation maintenance,
 - wording consistency,
