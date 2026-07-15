@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This document records the closure review for Black Signal Lab public portfolio baseline v0.1.
+This document records the final closure review for Black Signal Lab public portfolio baseline v0.1.
 
-The review checks whether the baseline is coherent, navigable, public-safe, bounded, and ready to be frozen as a completed portfolio baseline rather than expanded by default.
+The review checks whether the baseline is coherent, navigable, public-safe, bounded, and ready to remain frozen as a completed portfolio baseline rather than expanded by default.
 
 This is a closure decision artifact. It is not a product release, software release, certification, legal approval, security audit, or production-readiness statement.
 
@@ -30,8 +30,7 @@ Reviewed areas:
 
 The baseline may be closed when:
 
-- repository purpose is explicit,
-- non-goals are explicit,
+- repository purpose and non-goals are explicit,
 - core method documents are present,
 - public examples are bounded,
 - human decision ownership is explicit,
@@ -41,6 +40,8 @@ The baseline may be closed when:
 - navigation is coherent,
 - known limitations are recorded,
 - no unresolved issue requires continued baseline expansion.
+
+All closure criteria are met.
 
 ## Cross-Document Consistency Review
 
@@ -86,7 +87,7 @@ PASS
 
 ### License and Reuse Alignment
 
-`LICENSE_DECISION.md`, `README.md`, and `STATUS.md` consistently state that no public reuse license has been selected.
+`LICENSE_DECISION.md`, `README.md`, `REPOSITORY_MAP.md`, and `STATUS.md` consistently state that no public reuse license has been selected.
 
 The repository is public to inspect, but reuse, modification, redistribution, contribution, and commercial adaptation are not granted by default.
 
@@ -98,7 +99,7 @@ PASS
 
 ### Publication Alignment
 
-`SENSITIVE_CONTENT_REVIEW.md`, `PUBLICATION_BOUNDARY.md`, `README.md`, and `STATUS.md` consistently support controlled public portfolio visibility.
+`SENSITIVE_CONTENT_REVIEW.md`, `PUBLICATION_BOUNDARY.md`, `README.md`, `REPOSITORY_MAP.md`, and `STATUS.md` consistently support controlled public portfolio visibility.
 
 They do not approve broad publication, open-source framing, contribution invitation, commercial packaging, or reusable-framework claims.
 
@@ -112,7 +113,7 @@ PASS
 
 ### README
 
-The README provides a clear first-reader path and links to the current method, case-study, license, sensitive-content, publication, and status documents.
+The README provides a clear first-reader path and links to the current method, case-study, license, sensitive-content, publication, closure, and status documents.
 
 Result:
 
@@ -122,30 +123,37 @@ PASS
 
 ### Repository Map
 
-The repository map is structurally coherent but requires final alignment with:
+The repository map now includes:
 
 - `SENSITIVE_CONTENT_REVIEW.md`,
 - `PUBLICATION_BOUNDARY.md`,
-- `BASELINE_CLOSURE_REVIEW.md`.
+- `BASELINE_CLOSURE_REVIEW.md`,
+- license/reuse boundary,
+- publication boundary,
+- baseline closure boundary,
+- maintenance and closure reading paths.
 
-This alignment is part of the closure task and must be completed before final closure.
-
-Result before cleanup:
+Result:
 
 ```text
-PASS WITH REQUIRED UPDATE
+PASS
 ```
 
 ### Status
 
-`STATUS.md` accurately records the public portfolio baseline, current contents, license posture, publication posture, and development stance.
+`STATUS.md` now records:
 
-It requires a final closure statement after this review is accepted.
+- public portfolio baseline v0.1 as closed and frozen,
+- current contents,
+- license/reuse posture,
+- publication posture,
+- post-closure development stance,
+- review and boundary records.
 
-Result before cleanup:
+Result:
 
 ```text
-PASS WITH REQUIRED UPDATE
+PASS
 ```
 
 ## Public-Safety Review
@@ -184,10 +192,20 @@ The baseline does not claim:
 
 These are deliberate boundaries, not missing baseline features.
 
+## Closure Updates Completed
+
+The required closure updates have been completed:
+
+1. `REPOSITORY_MAP.md` includes the sensitive-content review, publication boundary, and closure review.
+2. `STATUS.md` states that public portfolio baseline v0.1 is closed and frozen.
+3. `README.md` links to the closure review and reflects the closed baseline status.
+4. Current license/reuse and publication caveats remain visible.
+5. No `LICENSE` file or contribution invitation was added.
+
 ## Closure Decision
 
 ```text
-Decision: CLOSE AND FREEZE BLACK SIGNAL LAB PUBLIC PORTFOLIO BASELINE V0.1.
+Decision: BLACK SIGNAL LAB PUBLIC PORTFOLIO BASELINE V0.1 IS CLOSED AND FROZEN.
 ```
 
 The baseline is coherent, public-safe within its stated limitations, navigable, and sufficient for controlled public portfolio visibility.
@@ -201,18 +219,7 @@ Future work should be handled as one of:
 - a new versioned baseline such as v0.2,
 - a separate publication, contribution, license, or product decision.
 
-## Required Closure Updates
-
-Before BSL-01 is marked complete:
-
-1. Add the sensitive-content review, publication boundary, and closure review to `REPOSITORY_MAP.md`.
-2. Update `STATUS.md` to state that public portfolio baseline v0.1 is closed and frozen.
-3. Preserve the current license/reuse and publication caveats.
-4. Do not add a `LICENSE` file or contribution invitation as part of closure.
-
 ## Post-Closure Operating Rule
-
-After closure:
 
 ```text
 No new baseline document without a new approved task and explicit reason.
@@ -239,9 +246,9 @@ Maintenance changes should be small, reviewable, and limited to:
 | Publication posture | PASS |
 | Sensitive-content review | PASS WITH LIMITATIONS |
 | README navigation | PASS |
-| Repository map | PASS AFTER CLOSURE UPDATE |
-| Status document | PASS AFTER CLOSURE UPDATE |
+| Repository map | PASS |
+| Status document | PASS |
 
 ## Final Statement
 
-Black Signal Lab v0.1 is ready to be closed as a public portfolio baseline once the repository map and status closure updates are committed.
+Black Signal Lab public portfolio baseline v0.1 is closed and frozen.
