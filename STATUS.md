@@ -88,9 +88,37 @@ Editorial improvement: RECOMMENDED
 
 The review found the repository coherent and precise, but too abstract, repetitive, and self-protective for maximum portfolio impact.
 
-The next approved direction is editorial improvement of existing content, beginning with the README and Portfolio Brief, followed by stronger case-study proof and reduced duplication.
+`CONTENT_QUALITY_REVIEW.md` records the editorial diagnosis and proposed work. Its task numbering was provisional and is superseded by the authoritative queue below.
 
-See `CONTENT_QUALITY_REVIEW.md`.
+## Active BSL-02 Work Queue
+
+```text
+Queue authority: STATUS.md
+Operational mirror: ClickUp list Black Signal Lab
+```
+
+Review and assessment documents may recommend work, but they do not allocate authoritative BSL task numbers. Numbering and execution order are assigned only in this section and mirrored in ClickUp.
+
+1. **BSL-02-0003 — Review integrity correction** — `READY`
+   - Correct the misleading internal `outsider review` classification.
+   - Preserve the distinction between self-assessment and independent external validation.
+   - Do not perform the external reader test inside this task.
+
+2. **BSL-02-0004 — External reader validation** — `BLOCKED BY BSL-02-0003`
+   - Run a real timed reader test with an independent participant.
+   - Record observations and participant wording separately from internal interpretation.
+
+3. **BSL-02-0005 — Editorial improvement pass** — `BLOCKED BY BSL-02-0004`
+   - Use `CONTENT_QUALITY_REVIEW.md` together with external-reader evidence.
+   - Begin with README and Portfolio Brief, then improve case-study proof and reduce duplication.
+
+Queue rationale:
+
+```text
+integrity correction -> external evidence -> editorial intervention
+```
+
+This ordering prevents an internal assessment from being mistaken for external validation and prevents editorial changes from being based only on internal reviews.
 
 ## Current Development Stance
 
@@ -100,7 +128,7 @@ BSL-02 portfolio activation is active.
 
 Future work should be limited to:
 
-- editorial improvement of existing portfolio content,
+- the authoritative BSL-02 queue above,
 - portfolio-use maintenance,
 - broken-link or navigation maintenance,
 - wording consistency,
