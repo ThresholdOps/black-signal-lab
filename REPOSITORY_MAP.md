@@ -4,7 +4,7 @@
 
 This document maps the public structure of the Black Signal Lab repository.
 
-It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private, license/reuse, publication, closure, and portfolio-activation boundaries sit.
+It explains how a first-time reader should navigate the repository, what each major area is for, and where the public/private, license/reuse, publication, closure, portfolio-activation, and editorial-review boundaries sit.
 
 The map is a navigation and governance artifact. It is not a technical architecture document, implementation reference, or product roadmap.
 
@@ -39,7 +39,7 @@ For a first-time reader, use this path:
 15. `training/critical-thinking-for-ai-workflows/` — workshop-style learning material.
 16. `STATUS.md` — current baseline and active portfolio state.
 
-Supporting governance, maintenance, and activation artifacts:
+Supporting governance, maintenance, activation, and editorial-review artifacts:
 
 - `README_PLAN.md`
 - `GITHUB_HYGIENE_REVIEW.md`
@@ -48,8 +48,9 @@ Supporting governance, maintenance, and activation artifacts:
 - `PUBLICATION_BOUNDARY.md`
 - `BASELINE_CLOSURE_REVIEW.md`
 - `PORTFOLIO_ACTIVATION.md`
+- `CONTENT_QUALITY_REVIEW.md`
 
-These documents support maintenance, review, reuse questions, publication decisions, baseline closure, and active portfolio use. They are not required as the first method-reading path.
+These documents support maintenance, review, reuse questions, publication decisions, baseline closure, active portfolio use, and editorial improvement. They are not required as the first method-reading path.
 
 ## Top-Level Entry Points
 
@@ -125,9 +126,15 @@ Records the BSL-02 decision to activate the closed v0.1 baseline as a controlled
 
 It contains approved portfolio framing, a reusable public launch note, suitable uses, remaining boundaries, and activation review gates.
 
+### `CONTENT_QUALITY_REVIEW.md`
+
+Records the BSL-02 first-reader and editorial-quality review.
+
+It evaluates clarity, specificity, evidence, distinctive voice, reader value, duplication, abstraction, and case-study narrative quality, then defines a prioritized editorial plan.
+
 ### `STATUS.md`
 
-States the current contents, frozen baseline state, active portfolio state, publication posture, license/reuse posture, and development stance.
+States the current contents, frozen baseline state, active portfolio state, content-quality status, publication posture, license/reuse posture, and development stance.
 
 ## Folder Map
 
@@ -151,6 +158,7 @@ States the current contents, frozen baseline state, active portfolio state, publ
 ├── PUBLICATION_BOUNDARY.md
 ├── BASELINE_CLOSURE_REVIEW.md
 ├── PORTFOLIO_ACTIVATION.md
+├── CONTENT_QUALITY_REVIEW.md
 ├── STATUS.md
 │
 ├── frameworks/
@@ -208,7 +216,7 @@ The repository may include:
 - reviewable artifact patterns,
 - governance and operating-model descriptions,
 - high-level diagrams,
-- public-facing review, maintenance, and activation artifacts.
+- public-facing review, maintenance, activation, and editorial-quality artifacts.
 
 It must not include private project material, confidential organizational content, real operational records, production configuration, or sensitive account and infrastructure details.
 
@@ -258,6 +266,23 @@ Activation does not approve product, training, open-source, contribution, commer
 
 Use `PORTFOLIO_ACTIVATION.md` for approved framing and launch wording.
 
+## Editorial Improvement Boundary
+
+Editorial review and improvement under BSL-02 may change how existing content is presented without reopening the frozen method baseline.
+
+Approved editorial work includes:
+
+- improving first-reader clarity,
+- reducing duplication,
+- surfacing existing evidence,
+- restructuring case-study narrative,
+- strengthening distinctive voice,
+- improving discoverability of existing walkthroughs and artifacts.
+
+Editorial work must not silently change the substantive method, license posture, publication boundary, or public/private boundary.
+
+Use `CONTENT_QUALITY_REVIEW.md` for the current review and prioritized plan.
+
 ## Navigation Paths by Reader Need
 
 ### Fast overview
@@ -279,9 +304,10 @@ Use `PORTFOLIO_ACTIVATION.md` for approved framing and launch wording.
 ### Concrete examples
 
 1. `EXAMPLE_CATALOG.md`
-2. `case-studies/samael/`
-3. `case-studies/the-daltons/`
-4. `case-studies/noesis/`
+2. `case-studies/the-daltons/walkthrough.md`
+3. `case-studies/samael/`
+4. `case-studies/the-daltons/`
+5. `case-studies/noesis/`
 
 ### Portfolio use
 
@@ -289,6 +315,15 @@ Use `PORTFOLIO_ACTIVATION.md` for approved framing and launch wording.
 2. `PUBLICATION_BOUNDARY.md`
 3. `STATUS.md`
 4. `README.md`
+
+### Editorial quality and improvement
+
+1. `CONTENT_QUALITY_REVIEW.md`
+2. `README_PLAN.md`
+3. `README.md`
+4. `PORTFOLIO_BRIEF.md`
+5. `EXAMPLE_CATALOG.md`
+6. `case-studies/`
 
 ### License and publication questions
 
@@ -323,4 +358,4 @@ The repository should remain small enough to inspect and structured enough to tr
 
 After v0.1 closure, do not add a new baseline document without a new approved task and explicit reason.
 
-BSL-02 portfolio-use artifacts may be added only when they support approved activation, maintenance, or publication decisions without reopening the frozen baseline.
+BSL-02 portfolio-use and editorial-review artifacts may be added only when they support approved activation, maintenance, publication, or content-quality work without reopening the frozen baseline.
