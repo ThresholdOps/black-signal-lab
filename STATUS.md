@@ -1,6 +1,6 @@
 # Black Signal Lab Status
 
-**Status:** Public portfolio baseline v0.1 — closed and frozen
+**Status:** Public portfolio baseline v0.1 — closed and frozen; portfolio active
 
 ## Purpose
 
@@ -25,6 +25,7 @@ It shows public-safe patterns for making AI-assisted work reviewable, traceable,
 - Publication boundary
 - License decision
 - Baseline closure review
+- Portfolio activation record
 - Portfolio brief
 - Black Signal Governance Model
 - Three case studies: SAMAEL, The Daltons, and NOESIS
@@ -42,6 +43,7 @@ It shows public-safe patterns for making AI-assisted work reviewable, traceable,
 - A demonstration of evidence mapping, validation gates, reviewable artifacts, human review, and human decision gates
 - A public-safe method repository for controlled AI-assisted work
 - A closed v0.1 portfolio baseline available for controlled public visibility
+- An active portfolio for professional review and discussion
 
 ## What This Repository Is Not
 
@@ -63,12 +65,28 @@ The baseline closure review found the repository coherent, navigable, and public
 
 See `BASELINE_CLOSURE_REVIEW.md`.
 
+## Portfolio Activation Status
+
+```text
+Portfolio use: ACTIVE
+Visibility: CONTROLLED PUBLIC VISIBILITY
+```
+
+The closed v0.1 baseline may now be deliberately used as public portfolio evidence in professional review, role-fit discussion, AI governance discussion, and controlled public references.
+
+Activation does not reopen the v0.1 baseline and does not create product, open-source, training, contribution, or commercial reuse status.
+
+See `PORTFOLIO_ACTIVATION.md`.
+
 ## Current Development Stance
 
 Feature expansion under BSL-01 is complete.
 
+BSL-02 portfolio activation is active.
+
 Future work should be limited to:
 
+- portfolio-use maintenance,
 - broken-link or navigation maintenance,
 - wording consistency,
 - public-safety corrections,
@@ -86,6 +104,7 @@ No new baseline document should be added without a new approved task and explici
 - `PUBLICATION_BOUNDARY.md` — controlled publication boundary.
 - `LICENSE_DECISION.md` — decision to defer adding a license file.
 - `BASELINE_CLOSURE_REVIEW.md` — closure decision for public portfolio baseline v0.1.
+- `PORTFOLIO_ACTIVATION.md` — activation decision and approved portfolio framing.
 
 ## License and Reuse Status
 
@@ -97,11 +116,13 @@ See `LICENSE_DECISION.md`.
 
 ## Publication Status
 
-Controlled public portfolio visibility is allowed.
+Controlled public portfolio visibility is active.
 
-Broad publication, contribution invitation, commercial packaging, or open-source/open-content framing is not approved.
+Professional portfolio references and controlled public links are allowed when the framing and caveats in `PORTFOLIO_ACTIVATION.md` and `PUBLICATION_BOUNDARY.md` are preserved.
 
-See `SENSITIVE_CONTENT_REVIEW.md` and `PUBLICATION_BOUNDARY.md`.
+Broad product launch, contribution invitation, commercial packaging, or open-source/open-content framing is not approved.
+
+See `SENSITIVE_CONTENT_REVIEW.md`, `PUBLICATION_BOUNDARY.md`, and `PORTFOLIO_ACTIVATION.md`.
 
 ## Privacy and Data Boundary
 
