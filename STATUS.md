@@ -27,6 +27,7 @@ It shows public-safe patterns for making AI-assisted work reviewable, traceable,
 - Baseline closure review
 - Portfolio activation record
 - Content quality review
+- Internal public baseline self-review
 - Portfolio brief
 - Black Signal Governance Model
 - Three case studies: SAMAEL, The Daltons, and NOESIS
@@ -99,14 +100,17 @@ Operational mirror: ClickUp list Black Signal Lab
 
 Review and assessment documents may recommend work, but they do not allocate authoritative BSL task numbers. Numbering and execution order are assigned only in this section and mirrored in ClickUp.
 
-1. **BSL-02-0003 — Review integrity correction** — `READY`
-   - Correct the misleading internal `outsider review` classification.
-   - Preserve the distinction between self-assessment and independent external validation.
-   - Do not perform the external reader test inside this task.
+1. **BSL-02-0003 — Review integrity correction** — `DONE`
+   - Renamed the misleading internal `outsider review` classification.
+   - Added an explicit self-assessment disclaimer.
+   - Reframed the three-minute reader claim as an untested internal hypothesis.
+   - Replaced the external-readiness conclusion with readiness for independent external-reader validation.
+   - Authoritative file: `reviews/internal-public-baseline-self-review-v0-1.md`.
 
-2. **BSL-02-0004 — External reader validation** — `BLOCKED BY BSL-02-0003`
+2. **BSL-02-0004 — External reader validation** — `READY`
    - Run a real timed reader test with an independent participant.
    - Record observations and participant wording separately from internal interpretation.
+   - Do not treat the internal self-review as evidence of reader comprehension.
 
 3. **BSL-02-0005 — Editorial improvement pass** — `BLOCKED BY BSL-02-0004`
    - Use `CONTENT_QUALITY_REVIEW.md` together with external-reader evidence.
@@ -149,6 +153,7 @@ No new baseline document should be added without a new approved task and explici
 - `BASELINE_CLOSURE_REVIEW.md` — closure decision for public portfolio baseline v0.1.
 - `PORTFOLIO_ACTIVATION.md` — activation decision and approved portfolio framing.
 - `CONTENT_QUALITY_REVIEW.md` — first-reader, duplication, abstraction, voice, evidence, and editorial-priority review.
+- `reviews/internal-public-baseline-self-review-v0-1.md` — internal self-assessment; not independent validation.
 
 ## License and Reuse Status
 
