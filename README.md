@@ -34,7 +34,19 @@ For sensitive-content and publication-boundary review, see [Sensitive Content Re
 
 For the baseline closure decision, see [Baseline Closure Review](BASELINE_CLOSURE_REVIEW.md).
 
-For the current public baseline, see [STATUS.md](STATUS.md).
+For the active portfolio framing and public launch note, see [Portfolio Activation](PORTFOLIO_ACTIVATION.md).
+
+For the current portfolio state, see [STATUS.md](STATUS.md).
+
+## Portfolio Status
+
+```text
+Baseline v0.1: closed and frozen
+Portfolio use: active
+Visibility: controlled public visibility
+```
+
+Black Signal Lab may now be used as public portfolio evidence in professional review and discussion, while the existing license, publication, privacy, and anti-overclaim boundaries remain in force.
 
 ## Recommended Reading Path
 
@@ -113,4 +125,4 @@ See [License Decision](LICENSE_DECISION.md).
 
 ## Status
 
-Public portfolio baseline v0.1 is closed and frozen. See [STATUS.md](STATUS.md) and [Baseline Closure Review](BASELINE_CLOSURE_REVIEW.md).
+Public portfolio baseline v0.1 is closed and frozen. Portfolio use is active. See [STATUS.md](STATUS.md), [Baseline Closure Review](BASELINE_CLOSURE_REVIEW.md), and [Portfolio Activation](PORTFOLIO_ACTIVATION.md).
